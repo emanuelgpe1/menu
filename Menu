@@ -1,1 +1,868 @@
-# menu
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local admin = Instance.new("ScreenGui")
+local p1 = Instance.new("Frame")
+local p12 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local execute = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local titulo = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local pro = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local pro2 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local CLOSE = Instance.new("ImageButton")
+local PROX = Instance.new("ImageButton")
+local linha = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local p2 = Instance.new("Frame")
+local p21 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local titulo_2 = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
+local PROX_2 = Instance.new("ImageButton")
+local CONF = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local creditos = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local discord = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local jogos = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local CLOSE_2 = Instance.new("ImageButton")
+local brev = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_16 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
+
+--Properties:
+
+admin.Name = "admin"
+admin.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+admin.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+p1.Name = "p1"
+p1.Parent = admin
+p1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+p1.Position = UDim2.new(0.305130452, 0, 0.147192746, 0)
+p1.Size = UDim2.new(0.369037002, 0, 0.585735917, 0)
+
+p12.Name = "p12"
+p12.Parent = p1
+p12.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+p12.Position = UDim2.new(0.0233644787, 0, 0.0250569843, 0)
+p12.Size = UDim2.new(0.948598146, 0, 0.947608411, 0)
+
+UICorner.Parent = p12
+
+execute.Name = "execute"
+execute.Parent = p12
+execute.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+execute.Position = UDim2.new(0.0916246548, 0, 0.218538567, 0)
+execute.Size = UDim2.new(0.817734122, 0, 0.141314089, 0)
+execute.Font = Enum.Font.Fondamento
+execute.Text = "farm (normal)"
+execute.TextColor3 = Color3.fromRGB(0, 0, 0)
+execute.TextScaled = true
+execute.TextSize = 14.000
+execute.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+execute.TextStrokeTransparency = 0.000
+execute.TextWrapped = true
+
+UICorner_2.Parent = execute
+
+TextLabel.Parent = p12
+TextLabel.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+TextLabel.Size = UDim2.new(1, 0, 0.129807666, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+titulo.Name = "titulo"
+titulo.Parent = TextLabel
+titulo.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+titulo.BackgroundTransparency = 1.000
+titulo.Position = UDim2.new(0.142857105, 0, 0, 0)
+titulo.Size = UDim2.new(0.743842423, 0, 1.00000024, 0)
+titulo.Font = Enum.Font.SourceSans
+titulo.Text = "PETITE HUB(MENU)"
+titulo.TextColor3 = Color3.fromRGB(0, 0, 0)
+titulo.TextScaled = true
+titulo.TextSize = 14.000
+titulo.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+titulo.TextStrokeTransparency = 0.000
+titulo.TextWrapped = true
+
+UICorner_3.Parent = titulo
+
+UICorner_4.Parent = TextLabel
+
+pro.Name = "pro"
+pro.Parent = p12
+pro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pro.Position = UDim2.new(0.10387338, 0, 0.612310171, 0)
+pro.Size = UDim2.new(0.817734122, 0, 0.141314089, 0)
+pro.Font = Enum.Font.Fondamento
+pro.Text = "farm (premium)"
+pro.TextColor3 = Color3.fromRGB(0, 0, 0)
+pro.TextScaled = true
+pro.TextSize = 14.000
+pro.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+pro.TextStrokeTransparency = 0.020
+pro.TextWrapped = true
+
+UICorner_5.Parent = pro
+
+pro2.Name = "pro2"
+pro2.Parent = p12
+pro2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pro2.Position = UDim2.new(0.10387338, 0, 0.803683698, 0)
+pro2.Size = UDim2.new(0.817734122, 0, 0.141314089, 0)
+pro2.Font = Enum.Font.Fondamento
+pro2.Text = "key (premium)"
+pro2.TextColor3 = Color3.fromRGB(0, 0, 0)
+pro2.TextScaled = true
+pro2.TextSize = 14.000
+pro2.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+pro2.TextStrokeTransparency = 0.020
+pro2.TextWrapped = true
+
+UICorner_6.Parent = pro2
+
+CLOSE.Name = "CLOSE"
+CLOSE.Parent = p12
+CLOSE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CLOSE.BackgroundTransparency = 1.000
+CLOSE.BorderSizePixel = 0
+CLOSE.Position = UDim2.new(0.023, 0, 0.023, 0)
+CLOSE.Size = UDim2.new(0.0839110389, 0, 0.079283312, 0)
+CLOSE.Image = "http://www.roblox.com/asset/?id=645779217"
+
+PROX.Name = "PROX"
+PROX.Parent = p12
+PROX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PROX.BackgroundTransparency = 1.000
+PROX.BorderSizePixel = 0
+PROX.Position = UDim2.new(0.909358799, 0, 0.0226284079, 0)
+PROX.Size = UDim2.new(0.0770390332, 0, 0.0792833194, 0)
+PROX.Image = "http://www.roblox.com/asset/?id=141728808"
+
+linha.Name = "linha"
+linha.Parent = p12
+linha.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+linha.BorderSizePixel = 0
+linha.Position = UDim2.new(0, 0, 0.410086095, 0)
+linha.Size = UDim2.new(1.00000012, 0, 0.0874850303, 0)
+linha.Font = Enum.Font.SourceSans
+linha.Text = ""
+linha.TextColor3 = Color3.fromRGB(0, 0, 0)
+linha.TextSize = 14.000
+
+UICorner_7.Parent = p1
+
+p2.Name = "p2"
+p2.Parent = admin
+p2.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+p2.Position = UDim2.new(0.305130452, 0, 0.147192717, 0)
+p2.Size = UDim2.new(0.368999988, 0, 0.586000025, 0)
+p2.Visible = false
+
+p21.Name = "p21"
+p21.Parent = p2
+p21.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+p21.Position = UDim2.new(0.0233644787, 0, 0.0250569843, 0)
+p21.Size = UDim2.new(0.948598146, 0, 0.947608411, 0)
+
+UICorner_8.Parent = p21
+
+TextLabel_2.Parent = p21
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+TextLabel_2.Size = UDim2.new(1, 0, 0.129807666, 0)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = ""
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+titulo_2.Name = "titulo"
+titulo_2.Parent = TextLabel_2
+titulo_2.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+titulo_2.BackgroundTransparency = 1.000
+titulo_2.Position = UDim2.new(0.142857105, 0, 0, 0)
+titulo_2.Size = UDim2.new(0.743842423, 0, 1.00000024, 0)
+titulo_2.Font = Enum.Font.SourceSans
+titulo_2.Text = "OUTROS"
+titulo_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+titulo_2.TextScaled = true
+titulo_2.TextSize = 14.000
+titulo_2.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+titulo_2.TextStrokeTransparency = 0.000
+titulo_2.TextWrapped = true
+
+UICorner_9.Parent = titulo_2
+
+UICorner_10.Parent = TextLabel_2
+
+PROX_2.Name = "PROX"
+PROX_2.Parent = p21
+PROX_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PROX_2.BackgroundTransparency = 1.000
+PROX_2.BorderSizePixel = 0
+PROX_2.Position = UDim2.new(0.909358799, 0, 0.0226063672, 0)
+PROX_2.Size = UDim2.new(0.0688189194, 0, 0.0792475641, 0)
+PROX_2.Image = "http://www.roblox.com/asset/?id=141728793"
+
+CONF.Name = "CONF"
+CONF.Parent = p21
+CONF.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+CONF.Position = UDim2.new(0.547012091, 0, 0.610289872, 0)
+CONF.Size = UDim2.new(0.411000013, 0, 0.126000002, 0)
+CONF.Font = Enum.Font.Fondamento
+CONF.Text = "CONFIGURAÇÕES"
+CONF.TextColor3 = Color3.fromRGB(0, 0, 0)
+CONF.TextScaled = true
+CONF.TextSize = 46.000
+CONF.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+CONF.TextStrokeTransparency = 0.390
+CONF.TextWrapped = true
+
+UICorner_11.Parent = CONF
+
+TextLabel_3.Parent = CONF
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+TextLabel_3.Position = UDim2.new(0, 0, 1.0410192, 0)
+TextLabel_3.Size = UDim2.new(1, 0, 0.477133781, 0)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "EM REFORMA"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_3.TextStrokeTransparency = 0.000
+TextLabel_3.TextWrapped = true
+
+creditos.Name = "creditos"
+creditos.Parent = p21
+creditos.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+creditos.Position = UDim2.new(0.022015959, 0, 0.263854384, 0)
+creditos.Size = UDim2.new(0.411000013, 0, 0.126000002, 0)
+creditos.Font = Enum.Font.Fondamento
+creditos.Text = "CREDITOS"
+creditos.TextColor3 = Color3.fromRGB(0, 0, 0)
+creditos.TextScaled = true
+creditos.TextSize = 46.000
+creditos.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+creditos.TextStrokeTransparency = 0.390
+creditos.TextWrapped = true
+
+UICorner_12.Parent = creditos
+
+discord.Name = "discord"
+discord.Parent = p21
+discord.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+discord.Position = UDim2.new(0.020708425, 0, 0.611180425, 0)
+discord.Size = UDim2.new(0.411000013, 0, 0.126000002, 0)
+discord.Font = Enum.Font.Fondamento
+discord.Text = "DISCORD"
+discord.TextColor3 = Color3.fromRGB(0, 0, 0)
+discord.TextScaled = true
+discord.TextSize = 46.000
+discord.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+discord.TextStrokeTransparency = 0.390
+discord.TextWrapped = true
+
+UICorner_13.Parent = discord
+
+jogos.Name = "jogos"
+jogos.Parent = p21
+jogos.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+jogos.Position = UDim2.new(0.549583554, 0, 0.263854414, 0)
+jogos.Size = UDim2.new(0.410594136, 0, 0.12408866, 0)
+jogos.Font = Enum.Font.Fondamento
+jogos.Text = "jOGOS"
+jogos.TextColor3 = Color3.fromRGB(0, 0, 0)
+jogos.TextScaled = true
+jogos.TextSize = 46.000
+jogos.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+jogos.TextStrokeTransparency = 0.390
+jogos.TextWrapped = true
+
+UICorner_14.Parent = jogos
+
+CLOSE_2.Name = "CLOSE"
+CLOSE_2.Parent = p21
+CLOSE_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CLOSE_2.BackgroundTransparency = 1.000
+CLOSE_2.BorderSizePixel = 0
+CLOSE_2.Position = UDim2.new(0.0231422354, 0, 0.0226284079, 0)
+CLOSE_2.Size = UDim2.new(0.0839110389, 0, 0.079283312, 0)
+CLOSE_2.Image = "http://www.roblox.com/asset/?id=645779217"
+
+brev.Name = "brev"
+brev.Parent = p21
+brev.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+brev.Position = UDim2.new(0.305296212, 0, 0.823438585, 0)
+brev.Size = UDim2.new(0.411000013, 0, 0.126000002, 0)
+brev.Font = Enum.Font.Fondamento
+brev.Text = "SMALL SERVER"
+brev.TextColor3 = Color3.fromRGB(0, 0, 0)
+brev.TextScaled = true
+brev.TextSize = 46.000
+brev.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+brev.TextStrokeTransparency = 0.390
+brev.TextWrapped = true
+
+UICorner_15.Parent = brev
+
+TextLabel_4.Parent = brev
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.Position = UDim2.new(0.050052464, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0.888431251, 0, 0.9612813, 0)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "EM BREVE"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 14.000
+
+UICorner_16.Parent = TextLabel_4
+
+UICorner_17.Parent = p2
+
+-- Scripts:
+
+local function WRPSVYY_fake_script() -- execute.part 
+	local script = Instance.new('Script', execute)
+
+	--[[
+	wait(2) --The time after which the platform or part appears.
+	local part = Instance.new('Part')
+	part.Parent = Workspace --Don't change it!! (Worksapce)
+	part.Size = Vector3.new(100, 1, 100) --Here we put any number of the width, the height of our platform (note that the measurement of the part goes in hairpins, if you are not familiar with this, do not change!)
+	part.Position = Vector3.new(0, 0, 0) --Change the position where the part will appear.
+	part.Anchored = true
+	
+	--Wrote a script:Luascripter21345,Thanks for using it!
+	]]
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(0.01)
+		local part = Instance.new('Part')
+		part.Parent = Workspace --Don't change it!! (Worksapce)
+		part.Size = Vector3.new(100, 1, 100) --Here we put any number of the width, the height of our platform (note that the measurement of the part goes in hairpins, if you are not familiar with this, do not change!)
+		part.Position = Vector3.new(0.47172159, -33.4159966, 783.801636, 0.608674526, -7.85272292e-08, 0.793420017, 6.54785168e-08, 1, 4.87410468e-08, -0.793420017, 2.22845316e-08, 0.608674526) --Change the position where the part will appear.
+		part.Anchored = true
+		wait(20000000) --The time after which the platform or part appears.
+	
+	
+		--Wrote a script:Luascripter21345,Thanks for using it!
+	end)
+end
+coroutine.wrap(WRPSVYY_fake_script)()
+local function XONYP_fake_script() -- execute.afk 
+	local script = Instance.new('LocalScript', execute)
+
+	local execute = script.Parent 
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	
+	execute.MouseButton1Click:connect(function()
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			wait(1)
+			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+	end)
+	
+end
+coroutine.wrap(XONYP_fake_script)()
+local function FUGMU_fake_script() -- execute.jogos 
+	local script = Instance.new('LocalScript', execute)
+
+	local localplayer = game.Players.LocalPlayer
+	
+	local Execute = script.Parent
+	
+	Execute.MouseButton1Click:Connect(function()
+		
+	
+		if game.PlaceId == 5605754812 then --(test simulator)
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/petitebarte/Jogos/main/1_Animal%20simulator"))() 
+		end
+	
+		if game.PlaceId == 5712833750 then --(animal simulator)
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/petitebarte/Jogos/main/1_Animal%20simulator"))() 
+		end
+	
+	
+		if game.PlaceId == 189707 then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/petitebarte/Jogos/main/3_Disaster%20Natural"))() 
+		end  
+	
+		if game.PlaceId == 1122519450 then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/petitebarte/Jogos/main/4_Titan%20simulator"))() 
+		end
+	
+	end)
+	
+	
+end
+coroutine.wrap(FUGMU_fake_script)()
+local function OMLC_fake_script() -- execute.fechar 
+	local script = Instance.new('LocalScript', execute)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(OMLC_fake_script)()
+local function LTHSE_fake_script() -- pro.part 
+	local script = Instance.new('Script', pro)
+
+	--[[
+	wait(2) --The time after which the platform or part appears.
+	local part = Instance.new('Part')
+	part.Parent = Workspace --Don't change it!! (Worksapce)
+	part.Size = Vector3.new(100, 1, 100) --Here we put any number of the width, the height of our platform (note that the measurement of the part goes in hairpins, if you are not familiar with this, do not change!)
+	part.Position = Vector3.new(0, 0, 0) --Change the position where the part will appear.
+	part.Anchored = true
+	
+	--Wrote a script:Luascripter21345,Thanks for using it!
+	]]
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(0.01)
+		local part = Instance.new('Part')
+		part.Parent = Workspace --Don't change it!! (Worksapce)
+		part.Size = Vector3.new(100, 1, 100) --Here we put any number of the width, the height of our platform (note that the measurement of the part goes in hairpins, if you are not familiar with this, do not change!)
+		part.Position = Vector3.new(0.47172159, -33.4159966, 783.801636, 0.608674526, -7.85272292e-08, 0.793420017, 6.54785168e-08, 1, 4.87410468e-08, -0.793420017, 2.22845316e-08, 0.608674526) --Change the position where the part will appear.
+		part.Anchored = true
+		wait(20000000) --The time after which the platform or part appears.
+	
+	
+		--Wrote a script:Luascripter21345,Thanks for using it!
+	end)
+end
+coroutine.wrap(LTHSE_fake_script)()
+local function GDCMAF_fake_script() -- pro.LocalScript 
+	local script = Instance.new('LocalScript', pro)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/petitebarte/menu/main/pro"))()  	
+	
+	
+	
+end
+coroutine.wrap(GDCMAF_fake_script)()
+local function TIAOT_fake_script() -- pro.afk 
+	local script = Instance.new('LocalScript', pro)
+
+	local pro = script.Parent 
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	
+	pro.MouseButton1Click:connect(function()
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			wait(1)
+			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+	end)
+	
+end
+coroutine.wrap(TIAOT_fake_script)()
+local function JKCP_fake_script() -- pro.fechar 
+	local script = Instance.new('LocalScript', pro)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(JKCP_fake_script)()
+local function FUFX_fake_script() -- pro2.part 
+	local script = Instance.new('Script', pro2)
+
+	--[[
+	wait(2) --The time after which the platform or part appears.
+	local part = Instance.new('Part')
+	part.Parent = Workspace --Don't change it!! (Worksapce)
+	part.Size = Vector3.new(100, 1, 100) --Here we put any number of the width, the height of our platform (note that the measurement of the part goes in hairpins, if you are not familiar with this, do not change!)
+	part.Position = Vector3.new(0, 0, 0) --Change the position where the part will appear.
+	part.Anchored = true
+	
+	--Wrote a script:Luascripter21345,Thanks for using it!
+	]]
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(0.01)
+		local part = Instance.new('Part')
+		part.Parent = Workspace --Don't change it!! (Worksapce)
+		part.Size = Vector3.new(100, 1, 100) --Here we put any number of the width, the height of our platform (note that the measurement of the part goes in hairpins, if you are not familiar with this, do not change!)
+		part.Position = Vector3.new(0.47172159, -33.4159966, 783.801636, 0.608674526, -7.85272292e-08, 0.793420017, 6.54785168e-08, 1, 4.87410468e-08, -0.793420017, 2.22845316e-08, 0.608674526) --Change the position where the part will appear.
+		part.Anchored = true
+		wait(20000000) --The time after which the platform or part appears.
+	
+	
+		--Wrote a script:Luascripter21345,Thanks for using it!
+	end)
+end
+coroutine.wrap(FUFX_fake_script)()
+local function BMPQ_fake_script() -- pro2.LocalScript 
+	local script = Instance.new('LocalScript', pro2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/petitebarte/menu/main/pro_key"))()  
+	end)
+		
+		
+	
+	
+	
+end
+coroutine.wrap(BMPQ_fake_script)()
+local function WUKD_fake_script() -- pro2.afk 
+	local script = Instance.new('LocalScript', pro2)
+
+	local pro = script.Parent 
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	
+	pro.MouseButton1Click:connect(function()
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			wait(1)
+			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+	end)
+	
+end
+coroutine.wrap(WUKD_fake_script)()
+local function DMXJI_fake_script() -- pro2.fechar 
+	local script = Instance.new('LocalScript', pro2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(DMXJI_fake_script)()
+local function CRHHB_fake_script() -- CLOSE.fechar 
+	local script = Instance.new('LocalScript', CLOSE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(CRHHB_fake_script)()
+local function MPORWO_fake_script() -- PROX.LocalScript 
+	local script = Instance.new('LocalScript', PROX)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Parent.Parent.p1.Visible = false 
+		wait(0.001)
+		script.Parent.Parent.Parent.Parent.p2.Visible = true 
+	end)
+		
+end
+coroutine.wrap(MPORWO_fake_script)()
+local function SHMZH_fake_script() -- p1.LocalScript 
+	local script = Instance.new('LocalScript', p1)
+
+	local dragger = {}; 
+	local resizer = {};
+	
+	do
+		local mouse = game:GetService("Players").LocalPlayer:GetMouse();
+		local inputService = game:GetService('UserInputService');
+		local heartbeat = game:GetService("RunService").Heartbeat;
+		-- // credits to Ririchi / Inori for this cute drag function :)
+		function dragger.new(frame)
+		    local s, event = pcall(function()
+		    	return frame.MouseEnter
+		    end)
+	
+		    if s then
+		    	frame.Active = true;
+	
+		    	event:connect(function()
+		    		local input = frame.InputBegan:connect(function(key)
+		    			if key.UserInputType == Enum.UserInputType.MouseButton1 then
+		    				local objectPosition = Vector2.new(mouse.X - frame.AbsolutePosition.X, mouse.Y - frame.AbsolutePosition.Y);
+		    				while heartbeat:wait() and inputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do
+		    					frame:TweenPosition(UDim2.new(0, mouse.X - objectPosition.X + (frame.Size.X.Offset * frame.AnchorPoint.X), 0, mouse.Y - objectPosition.Y + (frame.Size.Y.Offset * frame.AnchorPoint.Y)), 'Out', 'Quad', 0.1, true);
+		    				end
+		    			end
+		    		end)
+	
+		    		local leave;
+		    		leave = frame.MouseLeave:connect(function()
+		    			input:disconnect();
+		    			leave:disconnect();
+		    		end)
+		    	end)
+		    end
+		end
+		
+		function resizer.new(p, s)
+			p:GetPropertyChangedSignal('AbsoluteSize'):connect(function()
+				s.Size = UDim2.new(s.Size.X.Scale, s.Size.X.Offset, s.Size.Y.Scale, p.AbsoluteSize.Y);
+			end)
+		end
+	end
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(SHMZH_fake_script)()
+local function GWLXHMI_fake_script() -- PROX_2.LocalScript 
+	local script = Instance.new('LocalScript', PROX_2)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Parent.Parent.p2.Visible = false
+		wait(0.01)
+		script.Parent.Parent.Parent.Parent.p1.Visible = true
+	end)
+		
+end
+coroutine.wrap(GWLXHMI_fake_script)()
+local function BCZES_fake_script() -- CONF.LocalScript 
+	local script = Instance.new('LocalScript', CONF)
+
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/petitebarte/a/main/conf")() 
+	end)
+	
+	
+end
+coroutine.wrap(BCZES_fake_script)()
+local function XFGFESK_fake_script() -- CONF.afk 
+	local script = Instance.new('LocalScript', CONF)
+
+	local FARM = script.Parent 
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	
+	FARM.MouseButton1Click:connect(function()
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			wait(1)
+			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+	end)
+	
+end
+coroutine.wrap(XFGFESK_fake_script)()
+local function NFISG_fake_script() -- CONF.fechar 
+	local script = Instance.new('LocalScript', CONF)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(NFISG_fake_script)()
+local function SWMVO_fake_script() -- creditos.afk 
+	local script = Instance.new('LocalScript', creditos)
+
+	local Execute = script.Parent 
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	
+	Execute.MouseButton1Click:connect(function()
+		game:GetService("StarterGui"):SetCore("SendNotification",{  
+			Title = "Creditos",     
+			Text = "Jonas(staff lider)",
+			Icon = "http://www.roblox.com/asset/?id=9526084959",
+			Duration = 2,
+			Color = Success
+		})
+		
+		game:GetService("StarterGui"):SetCore("SendNotification",{  
+			Title = "Creditos",     
+			Text = "Kittie(vice_dono)",
+			Icon = "http://www.roblox.com/asset/?id=9526084959",
+			Duration = 2,
+			Color = Success
+		})
+		
+		game:GetService("StarterGui"):SetCore("SendNotification",{  
+			Title = "Creditos",     
+			Text = "xCABRITOx(dono)",
+			Icon = "http://www.roblox.com/asset/?id=9526084959",
+			Duration = 2,
+			Color = Success
+		})
+	end)
+	
+end
+coroutine.wrap(SWMVO_fake_script)()
+local function UBHNFH_fake_script() -- discord.LocalScript 
+	local script = Instance.new('LocalScript', discord)
+
+	discord.MouseButton1Click:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {Title = "Link copiado!", Text = "Entra la ;-;", Icon = "http://www.roblox.com/asset/?id=9335567614", Duration = 1})
+		wait(1)
+		setclipboard("https://discord.gg/BDzU3WakQN")
+	end)
+end
+coroutine.wrap(UBHNFH_fake_script)()
+local function FERPUB_fake_script() -- jogos.afk 
+	local script = Instance.new('LocalScript', jogos)
+
+	local Execute = script.Parent 
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	
+	Execute.MouseButton1Click:connect(function()
+		game:GetService("StarterGui"):SetCore("SendNotification",{  
+			Title = "JOGOS",     
+			Text = "Animal simulator",
+			Icon = "http://www.roblox.com/asset/?id=9526084959",
+			Duration = 2,
+			Color = Success
+		})
+		
+		game:GetService("StarterGui"):SetCore("SendNotification",{  
+			Title = "JOGOS",     
+			Text = "Disaster natural",
+			Icon = "http://www.roblox.com/asset/?id=9526084959",
+			Duration = 2,
+			Color = Success
+		})
+		
+		game:GetService("StarterGui"):SetCore("SendNotification",{  
+			Title = "JOGOS",     
+			Text = "Titan simulator",
+			Icon = "http://www.roblox.com/asset/?id=9526084959",
+			Duration = 2,
+			Color = Success
+		})
+	end)
+	
+end
+coroutine.wrap(FERPUB_fake_script)()
+local function KAPJGXG_fake_script() -- CLOSE_2.fechar 
+	local script = Instance.new('LocalScript', CLOSE_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(KAPJGXG_fake_script)()
+local function QRJTU_fake_script() -- brev.afk 
+	local script = Instance.new('LocalScript', brev)
+
+	local FARM = script.Parent 
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	
+	FARM.MouseButton1Click:connect(function()
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			wait(1)
+			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+	end)
+	
+end
+coroutine.wrap(QRJTU_fake_script)()
+local function XBYRUHE_fake_script() -- p2.LocalScript 
+	local script = Instance.new('LocalScript', p2)
+
+	local dragger = {}; 
+	local resizer = {};
+	
+	do
+		local mouse = game:GetService("Players").LocalPlayer:GetMouse();
+		local inputService = game:GetService('UserInputService');
+		local heartbeat = game:GetService("RunService").Heartbeat;
+		-- // credits to Ririchi / Inori for this cute drag function :)
+		function dragger.new(frame)
+		    local s, event = pcall(function()
+		    	return frame.MouseEnter
+		    end)
+	
+		    if s then
+		    	frame.Active = true;
+	
+		    	event:connect(function()
+		    		local input = frame.InputBegan:connect(function(key)
+		    			if key.UserInputType == Enum.UserInputType.MouseButton1 then
+		    				local objectPosition = Vector2.new(mouse.X - frame.AbsolutePosition.X, mouse.Y - frame.AbsolutePosition.Y);
+		    				while heartbeat:wait() and inputService:IsMouseButtonPressed(Enum.UserInputType.MouseButton1) do
+		    					frame:TweenPosition(UDim2.new(0, mouse.X - objectPosition.X + (frame.Size.X.Offset * frame.AnchorPoint.X), 0, mouse.Y - objectPosition.Y + (frame.Size.Y.Offset * frame.AnchorPoint.Y)), 'Out', 'Quad', 0.1, true);
+		    				end
+		    			end
+		    		end)
+	
+		    		local leave;
+		    		leave = frame.MouseLeave:connect(function()
+		    			input:disconnect();
+		    			leave:disconnect();
+		    		end)
+		    	end)
+		    end
+		end
+		
+		function resizer.new(p, s)
+			p:GetPropertyChangedSignal('AbsoluteSize'):connect(function()
+				s.Size = UDim2.new(s.Size.X.Scale, s.Size.X.Offset, s.Size.Y.Scale, p.AbsoluteSize.Y);
+			end)
+		end
+	end
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(XBYRUHE_fake_script)()
+local function FBTUYTR_fake_script() -- admin.Put in screen gui 
+	local script = Instance.new('LocalScript', admin)
+
+	local player = game.Players.LocalPlayer
+	
+	local users = {"Um_Aleatorio737",
+		"Fernanda_Batatinha45"
+	}
+	
+	local isUser = false
+	
+	local gui = script.Parent
+	
+	for i,name in pairs(users) do
+		if player.Name == name then
+			isUser = true
+			game.Players.LocalPlayer:Kick("Você esta na black list 😂")
+		end
+	end
+	
+	if not isUser then
+		gui.Enabled = true
+		wait(0.1)
+		print("a")
+	end
+end
+coroutine.wrap(FBTUYTR_fake_script)()
