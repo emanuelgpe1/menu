@@ -574,7 +574,10 @@ local function ULEXD_fake_script() -- pro.Put in screen gui
 		"X_Khate", -- kathe2
 		"Treezix23", -- exe
 		"Treezix12", -- exe2
-		"113Mat10" --mat
+		"113Mat10", --mat
+		"meliodas_memes", --Confiavel
+		"Derick7994",
+		""
 		
 	}
 	
