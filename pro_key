@@ -24,16 +24,16 @@ key.ResetOnSpawn = false
 
 Frame.Parent = key
 Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Frame.Position = UDim2.new(0.303890646, 0, 0.146341458, 0)
-Frame.Size = UDim2.new(0.370276779, 0, 0.586587191, 0)
+Frame.Position = UDim2.new(0.318887413, 0, 0.206350759, 0)
+Frame.Size = UDim2.new(0.359363168, 0, 0.586587191, 0)
 
 UICorner.Parent = Frame
 
 key_2.Name = "key"
 key_2.Parent = Frame
 key_2.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
-key_2.Position = UDim2.new(0.0266343672, 0, 0.0264718998, 0)
-key_2.Size = UDim2.new(0.946166039, 0, 0.948262572, 0)
+key_2.Position = UDim2.new(0.0292609613, 0, 0.0264718998, 0)
+key_2.Size = UDim2.new(0.94353956, 0, 0.948262572, 0)
 
 UICorner_2.Parent = key_2
 
@@ -91,14 +91,14 @@ PROX.Image = "http://www.roblox.com/asset/?id=141728808"
 
 -- Scripts:
 
-local function ZOCY_fake_script() -- FARM.LocalScript 
+local function UOIEJ_fake_script() -- FARM.LocalScript 
 	local script = Instance.new('LocalScript', FARM)
 
 	local key = script.Parent.Parent.key
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		if key.Text == "1004" then -- Make the "Key" whatever you wish.
-			loadstring(game:HttpGet"https://raw.githubusercontent.com/petitebarte/122999999999999999988888888888880000000000I11111111111111111111lI/main/README.md")() 
+			loadstring(game:HttpGet"https://raw.githubusercontent.com/petitebarte/Jogos/main/2_Animal%20simulator")() 
 			wait(0.1)
 			script.Parent.Parent.Parent:Destroy() -- Destroys the GUI after a set time
 			print("Destroyed!")
@@ -112,8 +112,8 @@ local function ZOCY_fake_script() -- FARM.LocalScript
 	end)
 	
 end
-coroutine.wrap(ZOCY_fake_script)()
-local function GZYS_fake_script() -- FARM.afk 
+coroutine.wrap(UOIEJ_fake_script)()
+local function JGDI_fake_script() -- FARM.afk 
 	local script = Instance.new('LocalScript', FARM)
 
 	local FARM = script.Parent 
@@ -129,8 +129,8 @@ local function GZYS_fake_script() -- FARM.afk
 	end)
 	
 end
-coroutine.wrap(GZYS_fake_script)()
-local function VVGPOY_fake_script() -- CLOSE.fechar 
+coroutine.wrap(JGDI_fake_script)()
+local function AIGWOMA_fake_script() -- CLOSE.fechar 
 	local script = Instance.new('LocalScript', CLOSE)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -141,8 +141,8 @@ local function VVGPOY_fake_script() -- CLOSE.fechar
 	
 	
 end
-coroutine.wrap(VVGPOY_fake_script)()
-local function PQBJHO_fake_script() -- PROX.LocalScript 
+coroutine.wrap(AIGWOMA_fake_script)()
+local function GTGBT_fake_script() -- PROX.LocalScript 
 	local script = Instance.new('LocalScript', PROX)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -152,8 +152,8 @@ local function PQBJHO_fake_script() -- PROX.LocalScript
 	end)
 		
 end
-coroutine.wrap(PQBJHO_fake_script)()
-local function GHUVGA_fake_script() -- Frame.LocalScript 
+coroutine.wrap(GTGBT_fake_script)()
+local function FQZP_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local dragger = {}; 
@@ -200,5 +200,5 @@ local function GHUVGA_fake_script() -- Frame.LocalScript
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(GHUVGA_fake_script)()
+coroutine.wrap(FQZP_fake_script)()
 -- key.Put in screen gui is disabled.
