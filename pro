@@ -577,8 +577,8 @@ local function ULEXD_fake_script() -- pro.Put in screen gui
 		"113Mat10", --mat
 		"meliodas_memes", --Confiavel
 		"Derick7994",
+		"DjangOx0", -- dj
 		""
-		
 	}
 	
 	local isUser = false
