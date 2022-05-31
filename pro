@@ -578,7 +578,8 @@ local function ULEXD_fake_script() -- pro.Put in screen gui
 		"meliodas_memes", --Confiavel
 		"Derick7994",
 		"DjangOx0", -- dj
-		""
+		"MCMIRELA123LOVE", --mih
+		"DaffyThierry" -- Julia
 	}
 	
 	local isUser = false
