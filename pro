@@ -579,7 +579,8 @@ local function ULEXD_fake_script() -- pro.Put in screen gui
 		"Derick7994",
 		"DjangOx0", -- dj
 		"MCMIRELA123LOVE", --mih
-		"DaffyThierry" -- Julia
+		"DaffyThierry", -- Julia
+		"Mateusalves56" --nam da bralw
 	}
 	
 	local isUser = false
