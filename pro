@@ -580,7 +580,8 @@ local function ULEXD_fake_script() -- pro.Put in screen gui
 		"DjangOx0", -- dj
 		"MCMIRELA123LOVE", --mih
 		"DaffyThierry", -- Julia
-		"Mateusalves56" --nam da bralw
+		"Mateusalves56", --nam da bralw
+		"VeGetaa_Br"
 	}
 	
 	local isUser = false
