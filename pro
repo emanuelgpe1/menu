@@ -250,7 +250,7 @@ TextLabel_8.TextWrapped = true
 
 -- Scripts:
 
-local function KJWCM_fake_script() -- FARM2.LocalScript 
+local function YMXO_fake_script() -- FARM2.LocalScript 
 	local script = Instance.new('LocalScript', FARM2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -258,8 +258,8 @@ local function KJWCM_fake_script() -- FARM2.LocalScript
 	end)
 	
 end
-coroutine.wrap(KJWCM_fake_script)()
-local function QJEJ_fake_script() -- FARM2.afk 
+coroutine.wrap(YMXO_fake_script)()
+local function EJJHSY_fake_script() -- FARM2.afk 
 	local script = Instance.new('LocalScript', FARM2)
 
 	local FARM2 = script.Parent 
@@ -275,8 +275,8 @@ local function QJEJ_fake_script() -- FARM2.afk
 	end)
 	
 end
-coroutine.wrap(QJEJ_fake_script)()
-local function RCHSN_fake_script() -- FARM2.fechar 
+coroutine.wrap(EJJHSY_fake_script)()
+local function XLJW_fake_script() -- FARM2.fechar 
 	local script = Instance.new('LocalScript', FARM2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -287,8 +287,8 @@ local function RCHSN_fake_script() -- FARM2.fechar
 	
 	
 end
-coroutine.wrap(RCHSN_fake_script)()
-local function DRBEI_fake_script() -- FARM2.part 
+coroutine.wrap(XLJW_fake_script)()
+local function IVLFKJE_fake_script() -- FARM2.part 
 	local script = Instance.new('Script', FARM2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -304,8 +304,8 @@ local function DRBEI_fake_script() -- FARM2.part
 		--Wrote a script:Luascripter21345,Thanks for using it!
 	end)
 end
-coroutine.wrap(DRBEI_fake_script)()
-local function ZOPN_fake_script() -- PVP2.afk 
+coroutine.wrap(IVLFKJE_fake_script)()
+local function JKMUQT_fake_script() -- PVP2.afk 
 	local script = Instance.new('LocalScript', PVP2)
 
 	local FARM = script.Parent 
@@ -321,8 +321,8 @@ local function ZOPN_fake_script() -- PVP2.afk
 	end)
 	
 end
-coroutine.wrap(ZOPN_fake_script)()
-local function CMAZO_fake_script() -- p2.LocalScript 
+coroutine.wrap(JKMUQT_fake_script)()
+local function JLLZUK_fake_script() -- p2.LocalScript 
 	local script = Instance.new('LocalScript', p2)
 
 	local dragger = {}; 
@@ -369,8 +369,8 @@ local function CMAZO_fake_script() -- p2.LocalScript
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(CMAZO_fake_script)()
-local function VBRUA_fake_script() -- CLOSE.fechar 
+coroutine.wrap(JLLZUK_fake_script)()
+local function VHRH_fake_script() -- CLOSE.fechar 
 	local script = Instance.new('LocalScript', CLOSE)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -381,8 +381,8 @@ local function VBRUA_fake_script() -- CLOSE.fechar
 	
 	
 end
-coroutine.wrap(VBRUA_fake_script)()
-local function FZYRQC_fake_script() -- PROX.LocalScript 
+coroutine.wrap(VHRH_fake_script)()
+local function DXCWTA_fake_script() -- PROX.LocalScript 
 	local script = Instance.new('LocalScript', PROX)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -392,8 +392,8 @@ local function FZYRQC_fake_script() -- PROX.LocalScript
 	end)
 		
 end
-coroutine.wrap(FZYRQC_fake_script)()
-local function RGDCYF_fake_script() -- p1.LocalScript 
+coroutine.wrap(DXCWTA_fake_script)()
+local function PTAKHG_fake_script() -- p1.LocalScript 
 	local script = Instance.new('LocalScript', p1)
 
 	local dragger = {}; 
@@ -440,8 +440,8 @@ local function RGDCYF_fake_script() -- p1.LocalScript
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(RGDCYF_fake_script)()
-local function EOOK_fake_script() -- CLOSE_2.fechar 
+coroutine.wrap(PTAKHG_fake_script)()
+local function ATBOJH_fake_script() -- CLOSE_2.fechar 
 	local script = Instance.new('LocalScript', CLOSE_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -452,8 +452,8 @@ local function EOOK_fake_script() -- CLOSE_2.fechar
 	
 	
 end
-coroutine.wrap(EOOK_fake_script)()
-local function QFZOYJA_fake_script() -- PROX_2.LocalScript 
+coroutine.wrap(ATBOJH_fake_script)()
+local function ZTYSHEW_fake_script() -- PROX_2.LocalScript 
 	local script = Instance.new('LocalScript', PROX_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -463,8 +463,8 @@ local function QFZOYJA_fake_script() -- PROX_2.LocalScript
 	end)
 		
 end
-coroutine.wrap(QFZOYJA_fake_script)()
-local function UXDPCO_fake_script() -- FARM.LocalScript 
+coroutine.wrap(ZTYSHEW_fake_script)()
+local function UHAFYG_fake_script() -- FARM.LocalScript 
 	local script = Instance.new('LocalScript', FARM)
 
 	
@@ -474,8 +474,8 @@ local function UXDPCO_fake_script() -- FARM.LocalScript
 	
 	
 end
-coroutine.wrap(UXDPCO_fake_script)()
-local function KWZE_fake_script() -- FARM.fechar 
+coroutine.wrap(UHAFYG_fake_script)()
+local function NENA_fake_script() -- FARM.fechar 
 	local script = Instance.new('LocalScript', FARM)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -486,8 +486,8 @@ local function KWZE_fake_script() -- FARM.fechar
 	
 	
 end
-coroutine.wrap(KWZE_fake_script)()
-local function BTTMK_fake_script() -- FARM.part 
+coroutine.wrap(NENA_fake_script)()
+local function SYXZZF_fake_script() -- FARM.part 
 	local script = Instance.new('Script', FARM)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -503,8 +503,8 @@ local function BTTMK_fake_script() -- FARM.part
 		--Wrote a script:Luascripter21345,Thanks for using it!
 	end)
 end
-coroutine.wrap(BTTMK_fake_script)()
-local function KTIPPI_fake_script() -- FARM.afk 
+coroutine.wrap(SYXZZF_fake_script)()
+local function GHIUNBM_fake_script() -- FARM.afk 
 	local script = Instance.new('LocalScript', FARM)
 
 	local FARM = script.Parent 
@@ -520,8 +520,8 @@ local function KTIPPI_fake_script() -- FARM.afk
 	end)
 	
 end
-coroutine.wrap(KTIPPI_fake_script)()
-local function JYXST_fake_script() -- pro.Put in screen gui 
+coroutine.wrap(GHIUNBM_fake_script)()
+local function CEKV_fake_script() -- pro.Put in screen gui 
 	local script = Instance.new('LocalScript', pro)
 
 	local player = game.Players.LocalPlayer
@@ -540,6 +540,7 @@ local function JYXST_fake_script() -- pro.Put in screen gui
 		"MCH11UwU", -- clara
 		"jonathan113444fake2", --jonas
 		"Jujubinha54381", --kittie
+		"davidoidin8474", --nam kittie
 		"paulokodak", --hyp
 		"proll2020",
 		"bbbbuubb", -- trajdao 
@@ -569,7 +570,8 @@ local function JYXST_fake_script() -- pro.Put in screen gui
 		"XxBritany_21y", -- Toxica
 		"Jokee0008",
 		"Nexx_yAlt",
-		"Xama_Acesa01", --frost
+		"Xama_Acesa01",--frost
+		"NARUTO_FRST", --Frost 2
 		"KatsMartins", -- kathe
 		"X_Khate", -- kathe2
 		"Treezix23", -- exe
@@ -603,4 +605,4 @@ local function JYXST_fake_script() -- pro.Put in screen gui
 		game.Players.LocalPlayer:Kick("Você não esta na whitelist :(")
 	end
 end
-coroutine.wrap(JYXST_fake_script)()
+coroutine.wrap(CEKV_fake_script)()
