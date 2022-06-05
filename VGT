@@ -23,6 +23,7 @@ local UICorner_6 = Instance.new("UICorner")
 
 VGT.Name = "VGT"
 VGT.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+VGT.Enabled = false
 VGT.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 VGT.ResetOnSpawn = false
 
@@ -123,7 +124,7 @@ UICorner_6.Parent = VGT_2
 
 -- Scripts:
 
-local function RIUI_fake_script() -- p1.LocalScript 
+local function WMXT_fake_script() -- p1.LocalScript 
 	local script = Instance.new('LocalScript', p1)
 
 	local dragger = {}; 
@@ -170,8 +171,8 @@ local function RIUI_fake_script() -- p1.LocalScript
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(RIUI_fake_script)()
-local function WKFZNE_fake_script() -- CLOSE.fechar 
+coroutine.wrap(WMXT_fake_script)()
+local function KNSP_fake_script() -- CLOSE.fechar 
 	local script = Instance.new('LocalScript', CLOSE)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -182,8 +183,8 @@ local function WKFZNE_fake_script() -- CLOSE.fechar
 	
 	
 end
-coroutine.wrap(WKFZNE_fake_script)()
-local function UCXTRFR_fake_script() -- pro2.part 
+coroutine.wrap(KNSP_fake_script)()
+local function MCOXOZR_fake_script() -- pro2.part 
 	local script = Instance.new('Script', pro2)
 
 	--[[
@@ -209,8 +210,8 @@ local function UCXTRFR_fake_script() -- pro2.part
 		--Wrote a script:Luascripter21345,Thanks for using it!
 	end)
 end
-coroutine.wrap(UCXTRFR_fake_script)()
-local function UUPTKSQ_fake_script() -- pro2.afk 
+coroutine.wrap(MCOXOZR_fake_script)()
+local function MHLFBGR_fake_script() -- pro2.afk 
 	local script = Instance.new('LocalScript', pro2)
 
 	local pro = script.Parent 
@@ -226,8 +227,8 @@ local function UUPTKSQ_fake_script() -- pro2.afk
 	end)
 	
 end
-coroutine.wrap(UUPTKSQ_fake_script)()
-local function ECHIZ_fake_script() -- pro2.fechar 
+coroutine.wrap(MHLFBGR_fake_script)()
+local function MIOSDI_fake_script() -- pro2.fechar 
 	local script = Instance.new('LocalScript', pro2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -238,8 +239,8 @@ local function ECHIZ_fake_script() -- pro2.fechar
 	
 	
 end
-coroutine.wrap(ECHIZ_fake_script)()
-local function SPVA_fake_script() -- pro2.jogos 
+coroutine.wrap(MIOSDI_fake_script)()
+local function UUQNSLC_fake_script() -- pro2.jogos 
 	local script = Instance.new('LocalScript', pro2)
 
 	local localplayer = game.Players.LocalPlayer
@@ -274,8 +275,8 @@ local function SPVA_fake_script() -- pro2.jogos
 	
 	
 end
-coroutine.wrap(SPVA_fake_script)()
-local function TNVILKH_fake_script() -- pvp.part 
+coroutine.wrap(UUQNSLC_fake_script)()
+local function WIGL_fake_script() -- pvp.part 
 	local script = Instance.new('Script', pvp)
 
 	--[[
@@ -301,8 +302,8 @@ local function TNVILKH_fake_script() -- pvp.part
 		--Wrote a script:Luascripter21345,Thanks for using it!
 	end)
 end
-coroutine.wrap(TNVILKH_fake_script)()
-local function AEQJX_fake_script() -- pvp.afk 
+coroutine.wrap(WIGL_fake_script)()
+local function RMDCV_fake_script() -- pvp.afk 
 	local script = Instance.new('LocalScript', pvp)
 
 	local pro = script.Parent 
@@ -318,9 +319,8 @@ local function AEQJX_fake_script() -- pvp.afk
 	end)
 	
 end
-coroutine.wrap(AEQJX_fake_script)()
--- VGT.Put in screen gui is disabled.
-local function FMXMX_fake_script() -- VGT.Whitelist group 
+coroutine.wrap(RMDCV_fake_script)()
+local function DNRZ_fake_script() -- VGT.Whitelist group 
 	local script = Instance.new('LocalScript', VGT)
 
 	
@@ -363,5 +363,31 @@ local function FMXMX_fake_script() -- VGT.Whitelist group
 		})
 	end
 end
-coroutine.wrap(FMXMX_fake_script)()
--- VGT.boa vinda is disabled.
+coroutine.wrap(DNRZ_fake_script)()
+local function NCTC_fake_script() -- VGT.Put in screen gui 
+	local script = Instance.new('LocalScript', VGT)
+
+	local player = game.Players.LocalPlayer
+	
+	local users = {"Um_Aleatorio737",
+		"Fernanda_Batatinha45"
+	}
+	
+	local isUser = false
+	
+	local gui = script.Parent
+	
+	for i,name in pairs(users) do
+		if player.Name == name then
+			isUser = true
+			game.Players.LocalPlayer:Kick("Você esta na black list 😂")
+		end
+	end
+	
+	if not isUser then
+		gui.Enabled = true
+		wait(0.1)
+		print("a")
+	end
+end
+coroutine.wrap(NCTC_fake_script)()
