@@ -23,7 +23,6 @@ local UICorner_6 = Instance.new("UICorner")
 
 VGT.Name = "VGT"
 VGT.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-VGT.Enabled = false
 VGT.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 VGT.ResetOnSpawn = false
 
@@ -124,7 +123,7 @@ UICorner_6.Parent = VGT_2
 
 -- Scripts:
 
-local function WMXT_fake_script() -- p1.LocalScript 
+local function FUBBV_fake_script() -- p1.LocalScript 
 	local script = Instance.new('LocalScript', p1)
 
 	local dragger = {}; 
@@ -171,8 +170,8 @@ local function WMXT_fake_script() -- p1.LocalScript
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(WMXT_fake_script)()
-local function KNSP_fake_script() -- CLOSE.fechar 
+coroutine.wrap(FUBBV_fake_script)()
+local function RHYSUD_fake_script() -- CLOSE.fechar 
 	local script = Instance.new('LocalScript', CLOSE)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -183,8 +182,8 @@ local function KNSP_fake_script() -- CLOSE.fechar
 	
 	
 end
-coroutine.wrap(KNSP_fake_script)()
-local function MCOXOZR_fake_script() -- pro2.part 
+coroutine.wrap(RHYSUD_fake_script)()
+local function WWQVQ_fake_script() -- pro2.part 
 	local script = Instance.new('Script', pro2)
 
 	--[[
@@ -210,8 +209,8 @@ local function MCOXOZR_fake_script() -- pro2.part
 		--Wrote a script:Luascripter21345,Thanks for using it!
 	end)
 end
-coroutine.wrap(MCOXOZR_fake_script)()
-local function MHLFBGR_fake_script() -- pro2.afk 
+coroutine.wrap(WWQVQ_fake_script)()
+local function JDQOBX_fake_script() -- pro2.afk 
 	local script = Instance.new('LocalScript', pro2)
 
 	local pro = script.Parent 
@@ -227,8 +226,8 @@ local function MHLFBGR_fake_script() -- pro2.afk
 	end)
 	
 end
-coroutine.wrap(MHLFBGR_fake_script)()
-local function MIOSDI_fake_script() -- pro2.fechar 
+coroutine.wrap(JDQOBX_fake_script)()
+local function MXQHFH_fake_script() -- pro2.fechar 
 	local script = Instance.new('LocalScript', pro2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -239,8 +238,8 @@ local function MIOSDI_fake_script() -- pro2.fechar
 	
 	
 end
-coroutine.wrap(MIOSDI_fake_script)()
-local function UUQNSLC_fake_script() -- pro2.jogos 
+coroutine.wrap(MXQHFH_fake_script)()
+local function UVENAG_fake_script() -- pro2.jogos 
 	local script = Instance.new('LocalScript', pro2)
 
 	local localplayer = game.Players.LocalPlayer
@@ -275,8 +274,8 @@ local function UUQNSLC_fake_script() -- pro2.jogos
 	
 	
 end
-coroutine.wrap(UUQNSLC_fake_script)()
-local function WIGL_fake_script() -- pvp.part 
+coroutine.wrap(UVENAG_fake_script)()
+local function KNBVP_fake_script() -- pvp.part 
 	local script = Instance.new('Script', pvp)
 
 	--[[
@@ -302,8 +301,8 @@ local function WIGL_fake_script() -- pvp.part
 		--Wrote a script:Luascripter21345,Thanks for using it!
 	end)
 end
-coroutine.wrap(WIGL_fake_script)()
-local function RMDCV_fake_script() -- pvp.afk 
+coroutine.wrap(KNBVP_fake_script)()
+local function FHBTTAK_fake_script() -- pvp.afk 
 	local script = Instance.new('LocalScript', pvp)
 
 	local pro = script.Parent 
@@ -319,8 +318,8 @@ local function RMDCV_fake_script() -- pvp.afk
 	end)
 	
 end
-coroutine.wrap(RMDCV_fake_script)()
-local function DNRZ_fake_script() -- VGT.Whitelist group 
+coroutine.wrap(FHBTTAK_fake_script)()
+local function SGGMTP_fake_script() -- VGT.Whitelist group 
 	local script = Instance.new('LocalScript', VGT)
 
 	
@@ -363,8 +362,8 @@ local function DNRZ_fake_script() -- VGT.Whitelist group
 		})
 	end
 end
-coroutine.wrap(DNRZ_fake_script)()
-local function NCTC_fake_script() -- VGT.Put in screen gui 
+coroutine.wrap(SGGMTP_fake_script)()
+local function YLKVFE_fake_script() -- VGT.Put in screen gui 
 	local script = Instance.new('LocalScript', VGT)
 
 	local player = game.Players.LocalPlayer
@@ -390,4 +389,4 @@ local function NCTC_fake_script() -- VGT.Put in screen gui
 		print("a")
 	end
 end
-coroutine.wrap(NCTC_fake_script)()
+coroutine.wrap(YLKVFE_fake_script)()
