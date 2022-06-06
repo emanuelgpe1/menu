@@ -583,9 +583,11 @@ local function CEKV_fake_script() -- pro.Put in screen gui
 		"MCMIRELA123LOVE", --mih
 		"DaffyThierry", -- Julia
 		"Mateusalves56",--nam da bralw
+		"MANO_TUE09", -- NAM BRAW2
 		"ScoThXx", --scoot alt
 		"ScooTzeraYT", --Scoot
 		"yuriminatto8",
+		"MINImitoNehVida",
 		"goddex89", -- godex
 		"VeGetaa_Br"	--nuke
 		
