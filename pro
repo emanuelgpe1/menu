@@ -39,14 +39,15 @@ p2.Parent = pro
 p2.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
 p2.BorderColor3 = Color3.fromRGB(255, 0, 0)
 p2.BorderSizePixel = 2
-p2.Position = UDim2.new(0.264626473, 0, 0.0912862942, 0)
-p2.Size = UDim2.new(0.282999992, 0, 0.569999993, 0)
+p2.Position = UDim2.new(0.311103195, 0, 0.237952888, 0)
+p2.Size = UDim2.new(0.340999991, 0, 0.433999985, 0)
 p2.Visible = false
 
 TextLabel.Parent = p2
 TextLabel.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 TextLabel.BorderSizePixel = 0
-TextLabel.Size = UDim2.new(0, 335, 0, 50)
+TextLabel.Position = UDim2.new(0, 0, 6.21534539e-08, 0)
+TextLabel.Size = UDim2.new(1, 0, 0.144999996, 0)
 TextLabel.Font = Enum.Font.SourceSans
 TextLabel.Text = ""
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -56,7 +57,7 @@ TextLabel_2.Parent = TextLabel
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BackgroundTransparency = 1.000
 TextLabel_2.Position = UDim2.new(0.220895529, 0, 0, 0)
-TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Size = UDim2.new(0.555056989, 0, 1.00000024, 0)
 TextLabel_2.Font = Enum.Font.PatrickHand
 TextLabel_2.Text = "PETITE PREMIUM"
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -69,8 +70,8 @@ TextLabel_2.TextWrapped = true
 FARM2.Name = "FARM2"
 FARM2.Parent = p2
 FARM2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-FARM2.Position = UDim2.new(0.143283591, 0, 0.431654662, 0)
-FARM2.Size = UDim2.new(0, 238, 0, 50)
+FARM2.Position = UDim2.new(0.134032637, 0, 0.399068326, 0)
+FARM2.Size = UDim2.new(0.72774148, 0, 0.144353539, 0)
 FARM2.Font = Enum.Font.Fondamento
 FARM2.Text = "FARM"
 FARM2.TextColor3 = Color3.fromRGB(255, 0, 0)
@@ -84,8 +85,8 @@ UICorner.Parent = FARM2
 PVP2.Name = "PVP2"
 PVP2.Parent = p2
 PVP2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-PVP2.Position = UDim2.new(0.143283591, 0, 0.762589931, 0)
-PVP2.Size = UDim2.new(0, 238, 0, 50)
+PVP2.Position = UDim2.new(0.143283591, 0, 0.681124091, 0)
+PVP2.Size = UDim2.new(0.718490541, 0, 0.167004839, 0)
 PVP2.Font = Enum.Font.SourceSans
 PVP2.Text = "PVP"
 PVP2.TextColor3 = Color3.fromRGB(255, 0, 0)
@@ -99,8 +100,8 @@ UICorner_2.Parent = PVP2
 TextLabel_3.Parent = PVP2
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.BackgroundTransparency = 0.600
-TextLabel_3.Position = UDim2.new(0.0798319355, 0, 0, 0)
-TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Position = UDim2.new(0.0557939932, 0, 0.170731723, 0)
+TextLabel_3.Size = UDim2.new(0.880552888, 0, 0.634146333, 0)
 TextLabel_3.Font = Enum.Font.Sarpanch
 TextLabel_3.Text = "EM BREVE"
 TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -111,8 +112,8 @@ TextLabel_3.TextWrapped = true
 TextLabel_4.Parent = p2
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.BackgroundTransparency = 1.000
-TextLabel_4.Position = UDim2.new(0.06268657, 0, 0.21223022, 0)
-TextLabel_4.Size = UDim2.new(0, 299, 0, 40)
+TextLabel_4.Position = UDim2.new(0.121275879, 0, 0.18775484, 0)
+TextLabel_4.Size = UDim2.new(0.750269771, 0, 0.154820651, 0)
 TextLabel_4.Font = Enum.Font.Fondamento
 TextLabel_4.Text = "PC FRACO"
 TextLabel_4.TextColor3 = Color3.fromRGB(255, 0, 0)
@@ -126,8 +127,8 @@ CLOSE.Parent = p2
 CLOSE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 CLOSE.BackgroundTransparency = 1.000
 CLOSE.BorderSizePixel = 0
-CLOSE.Position = UDim2.new(0, 0, 0.0253623296, 0)
-CLOSE.Size = UDim2.new(0, 33, 0, 29)
+CLOSE.Position = UDim2.new(0.018501902, 0, 0.0294356178, 0)
+CLOSE.Size = UDim2.new(0.0860000029, 0, 0.0850000009, 0)
 CLOSE.Image = "http://www.roblox.com/asset/?id=645779217"
 
 PROX.Name = "PROX"
@@ -135,8 +136,8 @@ PROX.Parent = p2
 PROX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 PROX.BackgroundTransparency = 1.000
 PROX.BorderSizePixel = 0
-PROX.Position = UDim2.new(0.895569623, 0, 0.0253623184, 0)
-PROX.Size = UDim2.new(0, 33, 0, 29)
+PROX.Position = UDim2.new(0.886318684, 0, 0.0294356067, 0)
+PROX.Size = UDim2.new(0.0930000022, 0, 0.0850000009, 0)
 PROX.Image = "http://www.roblox.com/asset/?id=141728793"
 
 UIAspectRatioConstraint.Parent = p2
@@ -147,16 +148,16 @@ p1.Parent = pro
 p1.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
 p1.BorderColor3 = Color3.fromRGB(255, 0, 0)
 p1.BorderSizePixel = 2
-p1.Position = UDim2.new(0.309517235, 0, 0.142790928, 0)
-p1.Size = UDim2.new(0, 317, 0, 271)
+p1.Position = UDim2.new(0.310650736, 0, 0.233596981, 0)
+p1.Size = UDim2.new(0.34069401, 0, 0.438355923, 0)
 
 CLOSE_2.Name = "CLOSE"
 CLOSE_2.Parent = p1
 CLOSE_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 CLOSE_2.BackgroundTransparency = 1.000
 CLOSE_2.BorderSizePixel = 0
-CLOSE_2.Position = UDim2.new(0, 0, 0.0253623296, 0)
-CLOSE_2.Size = UDim2.new(0, 33, 0, 29)
+CLOSE_2.Position = UDim2.new(0.0308641791, 0, 0.0280482434, 0)
+CLOSE_2.Size = UDim2.new(0.0864197537, 0, 0.084867008, 0)
 CLOSE_2.ZIndex = 2
 CLOSE_2.Image = "http://www.roblox.com/asset/?id=645779217"
 
@@ -165,16 +166,16 @@ PROX_2.Parent = p1
 PROX_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 PROX_2.BackgroundTransparency = 1.000
 PROX_2.BorderSizePixel = 0
-PROX_2.Position = UDim2.new(0.895569623, 0, 0.0253623184, 0)
-PROX_2.Size = UDim2.new(0, 33, 0, 29)
+PROX_2.Position = UDim2.new(0.876543283, 0, 0.0280482769, 0)
+PROX_2.Size = UDim2.new(0.0925925896, 0, 0.084866941, 0)
 PROX_2.ZIndex = 2
 PROX_2.Image = "http://www.roblox.com/asset/?id=141728808"
 
 FARM.Name = "FARM"
 FARM.Parent = p1
 FARM.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-FARM.Position = UDim2.new(0.143283591, 0, 0.431654662, 0)
-FARM.Size = UDim2.new(0, 238, 0, 50)
+FARM.Position = UDim2.new(0.0617283955, 0, 0.48646313, 0)
+FARM.Size = UDim2.new(0.876543224, 0, 0.158240542, 0)
 FARM.Font = Enum.Font.Fondamento
 FARM.Text = "FARM"
 FARM.TextColor3 = Color3.fromRGB(255, 0, 0)
@@ -188,8 +189,8 @@ UICorner_3.Parent = FARM
 PVP.Name = "PVP"
 PVP.Parent = p1
 PVP.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-PVP.Position = UDim2.new(0.143283591, 0, 0.762589931, 0)
-PVP.Size = UDim2.new(0, 238, 0, 50)
+PVP.Position = UDim2.new(0.0617283955, 0, 0.760492206, 0)
+PVP.Size = UDim2.new(0.876543224, 0, 0.158240542, 0)
 PVP.Font = Enum.Font.SourceSans
 PVP.Text = "PVP"
 PVP.TextColor3 = Color3.fromRGB(255, 0, 0)
@@ -203,8 +204,8 @@ UICorner_4.Parent = PVP
 TextLabel_5.Parent = PVP
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.BackgroundTransparency = 0.600
-TextLabel_5.Position = UDim2.new(0.0798319355, 0, 0, 0)
-TextLabel_5.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_5.Position = UDim2.new(0.0798318982, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0.803418815, 0, 0.999999821, 0)
 TextLabel_5.Font = Enum.Font.Sarpanch
 TextLabel_5.Text = "EM BREVE"
 TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -213,35 +214,35 @@ TextLabel_5.TextSize = 14.000
 TextLabel_5.TextWrapped = true
 
 TextLabel_6.Parent = p1
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-TextLabel_6.BorderSizePixel = 0
-TextLabel_6.Size = UDim2.new(0, 316, 0, 50)
-TextLabel_6.Font = Enum.Font.SourceSans
-TextLabel_6.Text = ""
-TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.23456791, 0, 0.21285139, 0)
+TextLabel_6.Size = UDim2.new(0.598765433, 0, 0.131686673, 0)
+TextLabel_6.Font = Enum.Font.Fondamento
+TextLabel_6.Text = "PC NORMAL"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_6.TextScaled = true
 TextLabel_6.TextSize = 14.000
+TextLabel_6.TextStrokeTransparency = 0.000
+TextLabel_6.TextWrapped = true
 
-TextLabel_7.Parent = TextLabel_6
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.BackgroundTransparency = 1.000
-TextLabel_7.Position = UDim2.new(0.220895529, 0, 0, 0)
-TextLabel_7.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_7.Font = Enum.Font.PatrickHand
-TextLabel_7.Text = "PETITE PREMIUM"
+TextLabel_7.Parent = p1
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0, 0, -2.98023224e-08, 0)
+TextLabel_7.Size = UDim2.new(1, 0, 0.145043775, 0)
+TextLabel_7.Font = Enum.Font.SourceSans
+TextLabel_7.Text = ""
 TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_7.TextScaled = true
 TextLabel_7.TextSize = 14.000
-TextLabel_7.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
-TextLabel_7.TextStrokeTransparency = 0.000
-TextLabel_7.TextWrapped = true
 
 TextLabel_8.Parent = p1
 TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_8.BackgroundTransparency = 1.000
-TextLabel_8.Position = UDim2.new(0.06268657, 0, 0.21223022, 0)
-TextLabel_8.Size = UDim2.new(0, 299, 0, 40)
+TextLabel_8.Position = UDim2.new(0.23456791, 0, 0.01204817, 0)
+TextLabel_8.Size = UDim2.new(0.598765433, 0, 0.131686673, 0)
 TextLabel_8.Font = Enum.Font.Fondamento
-TextLabel_8.Text = "PC NORMAL"
+TextLabel_8.Text = "PETITE HUB"
 TextLabel_8.TextColor3 = Color3.fromRGB(255, 0, 0)
 TextLabel_8.TextScaled = true
 TextLabel_8.TextSize = 14.000
@@ -250,7 +251,7 @@ TextLabel_8.TextWrapped = true
 
 -- Scripts:
 
-local function YMXO_fake_script() -- FARM2.LocalScript 
+local function TVJM_fake_script() -- FARM2.LocalScript 
 	local script = Instance.new('LocalScript', FARM2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -258,8 +259,8 @@ local function YMXO_fake_script() -- FARM2.LocalScript
 	end)
 	
 end
-coroutine.wrap(YMXO_fake_script)()
-local function EJJHSY_fake_script() -- FARM2.afk 
+coroutine.wrap(TVJM_fake_script)()
+local function HUFO_fake_script() -- FARM2.afk 
 	local script = Instance.new('LocalScript', FARM2)
 
 	local FARM2 = script.Parent 
@@ -275,8 +276,8 @@ local function EJJHSY_fake_script() -- FARM2.afk
 	end)
 	
 end
-coroutine.wrap(EJJHSY_fake_script)()
-local function XLJW_fake_script() -- FARM2.fechar 
+coroutine.wrap(HUFO_fake_script)()
+local function EBCJS_fake_script() -- FARM2.fechar 
 	local script = Instance.new('LocalScript', FARM2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -287,8 +288,8 @@ local function XLJW_fake_script() -- FARM2.fechar
 	
 	
 end
-coroutine.wrap(XLJW_fake_script)()
-local function IVLFKJE_fake_script() -- FARM2.part 
+coroutine.wrap(EBCJS_fake_script)()
+local function IQVATPA_fake_script() -- FARM2.part 
 	local script = Instance.new('Script', FARM2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -304,8 +305,8 @@ local function IVLFKJE_fake_script() -- FARM2.part
 		--Wrote a script:Luascripter21345,Thanks for using it!
 	end)
 end
-coroutine.wrap(IVLFKJE_fake_script)()
-local function JKMUQT_fake_script() -- PVP2.afk 
+coroutine.wrap(IQVATPA_fake_script)()
+local function ZNZLPK_fake_script() -- PVP2.afk 
 	local script = Instance.new('LocalScript', PVP2)
 
 	local FARM = script.Parent 
@@ -321,8 +322,8 @@ local function JKMUQT_fake_script() -- PVP2.afk
 	end)
 	
 end
-coroutine.wrap(JKMUQT_fake_script)()
-local function JLLZUK_fake_script() -- p2.LocalScript 
+coroutine.wrap(ZNZLPK_fake_script)()
+local function MKNPC_fake_script() -- p2.LocalScript 
 	local script = Instance.new('LocalScript', p2)
 
 	local dragger = {}; 
@@ -369,8 +370,8 @@ local function JLLZUK_fake_script() -- p2.LocalScript
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(JLLZUK_fake_script)()
-local function VHRH_fake_script() -- CLOSE.fechar 
+coroutine.wrap(MKNPC_fake_script)()
+local function PBLVU_fake_script() -- CLOSE.fechar 
 	local script = Instance.new('LocalScript', CLOSE)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -381,8 +382,8 @@ local function VHRH_fake_script() -- CLOSE.fechar
 	
 	
 end
-coroutine.wrap(VHRH_fake_script)()
-local function DXCWTA_fake_script() -- PROX.LocalScript 
+coroutine.wrap(PBLVU_fake_script)()
+local function AVVWK_fake_script() -- PROX.LocalScript 
 	local script = Instance.new('LocalScript', PROX)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -392,8 +393,8 @@ local function DXCWTA_fake_script() -- PROX.LocalScript
 	end)
 		
 end
-coroutine.wrap(DXCWTA_fake_script)()
-local function PTAKHG_fake_script() -- p1.LocalScript 
+coroutine.wrap(AVVWK_fake_script)()
+local function LGLLWS_fake_script() -- p1.LocalScript 
 	local script = Instance.new('LocalScript', p1)
 
 	local dragger = {}; 
@@ -440,8 +441,8 @@ local function PTAKHG_fake_script() -- p1.LocalScript
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(PTAKHG_fake_script)()
-local function ATBOJH_fake_script() -- CLOSE_2.fechar 
+coroutine.wrap(LGLLWS_fake_script)()
+local function SRYCGBR_fake_script() -- CLOSE_2.fechar 
 	local script = Instance.new('LocalScript', CLOSE_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -452,8 +453,8 @@ local function ATBOJH_fake_script() -- CLOSE_2.fechar
 	
 	
 end
-coroutine.wrap(ATBOJH_fake_script)()
-local function ZTYSHEW_fake_script() -- PROX_2.LocalScript 
+coroutine.wrap(SRYCGBR_fake_script)()
+local function DHIZYU_fake_script() -- PROX_2.LocalScript 
 	local script = Instance.new('LocalScript', PROX_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -463,8 +464,8 @@ local function ZTYSHEW_fake_script() -- PROX_2.LocalScript
 	end)
 		
 end
-coroutine.wrap(ZTYSHEW_fake_script)()
-local function UHAFYG_fake_script() -- FARM.LocalScript 
+coroutine.wrap(DHIZYU_fake_script)()
+local function ULKEBF_fake_script() -- FARM.LocalScript 
 	local script = Instance.new('LocalScript', FARM)
 
 	
@@ -474,8 +475,8 @@ local function UHAFYG_fake_script() -- FARM.LocalScript
 	
 	
 end
-coroutine.wrap(UHAFYG_fake_script)()
-local function NENA_fake_script() -- FARM.fechar 
+coroutine.wrap(ULKEBF_fake_script)()
+local function HCDT_fake_script() -- FARM.fechar 
 	local script = Instance.new('LocalScript', FARM)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -486,8 +487,8 @@ local function NENA_fake_script() -- FARM.fechar
 	
 	
 end
-coroutine.wrap(NENA_fake_script)()
-local function SYXZZF_fake_script() -- FARM.part 
+coroutine.wrap(HCDT_fake_script)()
+local function ABQNR_fake_script() -- FARM.part 
 	local script = Instance.new('Script', FARM)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -503,8 +504,8 @@ local function SYXZZF_fake_script() -- FARM.part
 		--Wrote a script:Luascripter21345,Thanks for using it!
 	end)
 end
-coroutine.wrap(SYXZZF_fake_script)()
-local function GHIUNBM_fake_script() -- FARM.afk 
+coroutine.wrap(ABQNR_fake_script)()
+local function ZAYPLCM_fake_script() -- FARM.afk 
 	local script = Instance.new('LocalScript', FARM)
 
 	local FARM = script.Parent 
@@ -520,8 +521,8 @@ local function GHIUNBM_fake_script() -- FARM.afk
 	end)
 	
 end
-coroutine.wrap(GHIUNBM_fake_script)()
-local function CEKV_fake_script() -- pro.Put in screen gui 
+coroutine.wrap(ZAYPLCM_fake_script)()
+local function WDBC_fake_script() -- pro.Put in screen gui 
 	local script = Instance.new('LocalScript', pro)
 
 	local player = game.Players.LocalPlayer
@@ -530,23 +531,23 @@ local function CEKV_fake_script() -- pro.Put in screen gui
 		"lIstrawberrysIl",
 		"barte12231112",
 		"PetiteBarte",
-		"maria171907", --may
+		"maria171907",    -- may
 		"Mklindo021",
-		"niko3231mito", --biel
-		"lobo_danoite242", --biel
-		"mvbocca7", --bocca
+		"niko3231mito",   -- biel
+		"lobo_danoite242",-- biel
+		"mvbocca7",       -- bocca
 		"brunojorge1982",
-		"Larinhapaty", --clara
-		"MCH11UwU", -- clara
+		"Larinhapaty",    -- clara
+		"MCH11UwU",       -- clara
 		"jonathan113444fake2", --jonas
-		"Jujubinha54381", --kittie
-		"davidoidin8474", --nam kittie
-		"paulokodak", --hyp
+		"Jujubinha54381", -- kittie
+		"davidoidin8474", -- nam kittie
+		"paulokodak",     -- hyp
 		"proll2020",
-		"bbbbuubb", -- trajdao 
-		"IIe1raII", -- trajdao 
+		"bbbbuubb",       -- trajdao 
+		"IIe1raII",       -- trajdao 
 		"Itz_yMatheusBr", -- trajdao 
-		"24xSunnx", -- trajdao
+		"24xSunnx",       -- trajdao
 		"yyyutuyiilk",
 		"reluk2010",
 		"UnlovedYenzy",
@@ -554,43 +555,41 @@ local function CEKV_fake_script() -- pro.Put in screen gui
 		"thiagoligo",
 		"marcos77fa",
 		"Madara_Yushiha",
-		"Chopperoshea1",
-		"tatafofinhad", --tata
-		"gDarwingg",-- gumball
+		"Chopperoshea1",    -- choper
+		"tatafofinhad",     -- tata
+		"victorhugo443333", -- nam tata
+		"Victorr8943",      -- nam tata 2
+		"gDarwingg",        -- gumball
 		"DamaEscarlart900", -- dama
 		"Pedroca12345ade",
 		"sr_atum23",
-		"galopeira321123", --drake
+		"galopeira321123",  -- drake
 		"Demon_yDark",
 		"RU4N_L4",
 		"cocacola_98554",
 		"BrunnoMouraBM",
 		"lIstrawberrysIl",
-		"IL0V3xA", -- toxic
-		"XxBritany_21y", -- Toxica
+		"IL0V3xA",          -- toxic
+		"XxBritany_21y",    -- Toxica
 		"Jokee0008",
 		"Nexx_yAlt",
-		"Xama_Acesa01",--frost
-		"NARUTO_FRST", --Frost 2
-		"KatsMartins", -- kathe
-		"X_Khate", -- kathe2
-		"Treezix23", -- exe
-		"Treezix12", -- exe2
-		"113Mat10", --mat
-		"meliodas_memes", --Confiavel
+		"Xama_Acesa01",     -- frost
+		"NARUTO_FRST",      -- Frost 2
+		"KatsMartins",      -- kathe
+		"X_Khate",          -- kathe2
+		"Treezix23",        -- exe
+		"Treezix12",        -- exe2
+		"113Mat10",         -- mat
+		"meliodas_memes",   -- Confiavel
 		"Derick7994",
-		"DjangOx0", -- dj
-		"MCMIRELA123LOVE", --mih
-		"DaffyThierry", -- Julia
-		"Mateusalves56",--nam da bralw
-		"MANO_TUE09", -- NAM BRAW2
-		"ScoThXx", --scoot alt
-		"ScooTzeraYT", --Scoot
-		"yuriminatto8",
-		"MINImitoNehVida",
-		"goddex89", -- godex
-		"VeGetaa_Br"	--nuke
-		
+		"DjangOx0",         -- dj
+		"MCMIRELA123LOVE",  -- mih
+		"DaffyThierry",     -- Julia
+		"Mateusalves56",    -- nam da bralw
+		"ScoThXx",          -- scoot alt
+		"ScooTzeraYT",      -- Scoot
+		"VeGetaa_Br"	    -- nuke
+	
 	}
 	
 	local isUser = false
@@ -609,4 +608,4 @@ local function CEKV_fake_script() -- pro.Put in screen gui
 		game.Players.LocalPlayer:Kick("Você não esta na whitelist :(")
 	end
 end
-coroutine.wrap(CEKV_fake_script)()
+coroutine.wrap(WDBC_fake_script)()
