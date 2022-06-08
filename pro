@@ -580,6 +580,7 @@ local function WDBC_fake_script() -- pro.Put in screen gui
 		"X_Khate",          -- kathe2
 		"Treezix23",        -- exe
 		"Treezix12",        -- exe2
+		"gabrirays",        -- exe3
 		"113Mat10",         -- mat
 		"meliodas_memes",   -- Confiavel
 		"Derick7994",
