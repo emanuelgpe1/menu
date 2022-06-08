@@ -532,6 +532,8 @@ local function WDBC_fake_script() -- pro.Put in screen gui
 		"barte12231112",
 		"PetiteBarte",
 		"maria171907",    -- may
+		"AMORA16038",     -- nam do lost
+		"joao45379",      -- lost
 		"Mklindo021",
 		"niko3231mito",   -- biel
 		"lobo_danoite242",-- biel
