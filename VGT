@@ -10,6 +10,7 @@ local VGT_2 = Instance.new("ImageLabel")
 local CLOSE = Instance.new("ImageButton")
 local pro2 = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
 local pvp = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
@@ -18,6 +19,9 @@ local titulo = Instance.new("TextLabel")
 local UICorner_4 = Instance.new("UICorner")
 local UICorner_5 = Instance.new("UICorner")
 local UICorner_6 = Instance.new("UICorner")
+local Fundador = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UIGradient_2 = Instance.new("UIGradient")
 
 --Properties:
 
@@ -67,6 +71,9 @@ pro2.TextWrapped = true
 
 UICorner_2.Parent = pro2
 
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(128, 0, 128)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(0, 0, 254)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(251, 1, 6)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(0, 0, 254)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(127, 0, 127))}
+UIGradient.Parent = pro2
+
 pvp.Name = "pvp"
 pvp.Parent = VGT_2
 pvp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -107,7 +114,7 @@ titulo.BackgroundTransparency = 1.000
 titulo.Position = UDim2.new(0.142857105, 0, 0, 0)
 titulo.Size = UDim2.new(0.743842423, 0, 1.00000024, 0)
 titulo.Font = Enum.Font.SourceSans
-titulo.Text = "PETITE HUB(MENU)"
+titulo.Text = "PETITE HUB"
 titulo.TextColor3 = Color3.fromRGB(0, 0, 0)
 titulo.TextScaled = true
 titulo.TextSize = 14.000
@@ -121,9 +128,41 @@ UICorner_5.Parent = TextLabel_2
 
 UICorner_6.Parent = VGT_2
 
+Fundador.Name = "Fundador"
+Fundador.Parent = VGT_2
+Fundador.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fundador.BackgroundTransparency = 1.000
+Fundador.BorderSizePixel = 0
+Fundador.Position = UDim2.new(0.106799096, 0, 0.950155735, 0)
+Fundador.Size = UDim2.new(0.817734241, 0, 0.0498442352, 0)
+Fundador.Font = Enum.Font.SpecialElite
+Fundador.Text = "Fundador: Bocca"
+Fundador.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fundador.TextScaled = true
+Fundador.TextSize = 14.000
+Fundador.TextWrapped = true
+
+TextButton.Parent = VGT
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.402733952, 0, 0, 0)
+TextButton.Size = UDim2.new(0.217665613, 0, 0.0609756112, 0)
+TextButton.Font = Enum.Font.SciFi
+TextButton.Text = "(V.G.T)  Melhor do mundo"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextStrokeColor3 = Color3.fromRGB(255, 0, 255)
+TextButton.TextStrokeTransparency = 0.260
+TextButton.TextWrapped = true
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(128, 0, 128)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(0, 0, 254)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(251, 1, 6)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(0, 0, 254)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(127, 0, 127))}
+UIGradient_2.Parent = TextButton
+
 -- Scripts:
 
-local function FUBBV_fake_script() -- p1.LocalScript 
+local function LQXQILA_fake_script() -- p1.LocalScript 
 	local script = Instance.new('LocalScript', p1)
 
 	local dragger = {}; 
@@ -170,8 +209,8 @@ local function FUBBV_fake_script() -- p1.LocalScript
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(FUBBV_fake_script)()
-local function RHYSUD_fake_script() -- CLOSE.fechar 
+coroutine.wrap(LQXQILA_fake_script)()
+local function VQRPOIG_fake_script() -- CLOSE.fechar 
 	local script = Instance.new('LocalScript', CLOSE)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -182,8 +221,8 @@ local function RHYSUD_fake_script() -- CLOSE.fechar
 	
 	
 end
-coroutine.wrap(RHYSUD_fake_script)()
-local function WWQVQ_fake_script() -- pro2.part 
+coroutine.wrap(VQRPOIG_fake_script)()
+local function MUHSA_fake_script() -- pro2.part 
 	local script = Instance.new('Script', pro2)
 
 	--[[
@@ -209,8 +248,8 @@ local function WWQVQ_fake_script() -- pro2.part
 		--Wrote a script:Luascripter21345,Thanks for using it!
 	end)
 end
-coroutine.wrap(WWQVQ_fake_script)()
-local function JDQOBX_fake_script() -- pro2.afk 
+coroutine.wrap(MUHSA_fake_script)()
+local function XTOYXEO_fake_script() -- pro2.afk 
 	local script = Instance.new('LocalScript', pro2)
 
 	local pro = script.Parent 
@@ -226,8 +265,8 @@ local function JDQOBX_fake_script() -- pro2.afk
 	end)
 	
 end
-coroutine.wrap(JDQOBX_fake_script)()
-local function MXQHFH_fake_script() -- pro2.fechar 
+coroutine.wrap(XTOYXEO_fake_script)()
+local function LJCCR_fake_script() -- pro2.fechar 
 	local script = Instance.new('LocalScript', pro2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -238,8 +277,8 @@ local function MXQHFH_fake_script() -- pro2.fechar
 	
 	
 end
-coroutine.wrap(MXQHFH_fake_script)()
-local function UVENAG_fake_script() -- pro2.jogos 
+coroutine.wrap(LJCCR_fake_script)()
+local function HCAS_fake_script() -- pro2.jogos 
 	local script = Instance.new('LocalScript', pro2)
 
 	local localplayer = game.Players.LocalPlayer
@@ -274,8 +313,26 @@ local function UVENAG_fake_script() -- pro2.jogos
 	
 	
 end
-coroutine.wrap(UVENAG_fake_script)()
-local function KNBVP_fake_script() -- pvp.part 
+coroutine.wrap(HCAS_fake_script)()
+local function OKSXM_fake_script() -- pro2.Script 
+	local script = Instance.new('Script', pro2)
+
+	local thing = script.Parent
+	local uiGradient = thing:WaitForChild("UIGradient")
+	local tweenService = game:GetService("TweenService")
+	
+	while true do
+		local tween = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(-1, 0)})
+		tween:Play()
+		wait(2)
+		uiGradient.Offset = Vector2.new(1, 0)
+		local tween2 = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(0, 0)})
+		tween2:Play()
+		wait(2)
+	end
+end
+coroutine.wrap(OKSXM_fake_script)()
+local function LFFFGGC_fake_script() -- pvp.part 
 	local script = Instance.new('Script', pvp)
 
 	--[[
@@ -301,8 +358,8 @@ local function KNBVP_fake_script() -- pvp.part
 		--Wrote a script:Luascripter21345,Thanks for using it!
 	end)
 end
-coroutine.wrap(KNBVP_fake_script)()
-local function FHBTTAK_fake_script() -- pvp.afk 
+coroutine.wrap(LFFFGGC_fake_script)()
+local function MVOBTNO_fake_script() -- pvp.afk 
 	local script = Instance.new('LocalScript', pvp)
 
 	local pro = script.Parent 
@@ -318,12 +375,12 @@ local function FHBTTAK_fake_script() -- pvp.afk
 	end)
 	
 end
-coroutine.wrap(FHBTTAK_fake_script)()
-local function SGGMTP_fake_script() -- VGT.Whitelist group 
+coroutine.wrap(MVOBTNO_fake_script)()
+local function GGGKMSD_fake_script() -- VGT.Whitelist group 
 	local script = Instance.new('LocalScript', VGT)
 
 	
-	local groupID = 14008124
+	local groupID = 15047022
 	
 	
 	
@@ -362,8 +419,8 @@ local function SGGMTP_fake_script() -- VGT.Whitelist group
 		})
 	end
 end
-coroutine.wrap(SGGMTP_fake_script)()
-local function YLKVFE_fake_script() -- VGT.Put in screen gui 
+coroutine.wrap(GGGKMSD_fake_script)()
+local function KVMBG_fake_script() -- VGT.Put in screen gui 
 	local script = Instance.new('LocalScript', VGT)
 
 	local player = game.Players.LocalPlayer
@@ -389,4 +446,22 @@ local function YLKVFE_fake_script() -- VGT.Put in screen gui
 		print("a")
 	end
 end
-coroutine.wrap(YLKVFE_fake_script)()
+coroutine.wrap(KVMBG_fake_script)()
+local function SGKID_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	local thing = script.Parent
+	local uiGradient = thing:WaitForChild("UIGradient")
+	local tweenService = game:GetService("TweenService")
+	
+	while true do
+		local tween = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(-1, 0)})
+		tween:Play()
+		wait(2)
+		uiGradient.Offset = Vector2.new(1, 0)
+		local tween2 = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(0, 0)})
+		tween2:Play()
+		wait(2)
+	end
+end
+coroutine.wrap(SGKID_fake_script)()
