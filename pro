@@ -570,7 +570,6 @@ local function WDBC_fake_script() -- pro.Put in screen gui
 		"RU4N_L4",
 		"cocacola_98554",
 		"BrunnoMouraBM",
-		"lIstrawberrysIl",
 		"IL0V3xA",          -- toxic
 		"XxBritany_21y",    -- Toxica
 		"Jokee0008",
