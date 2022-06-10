@@ -594,11 +594,11 @@ local function WDBC_fake_script() -- pro.Put in screen gui
 		"MINImitoNehVida",  --motta alt
 		"goddex89",         -- godex
 		"VeGetaa_Br",	    -- nuke
-		"7oivato",          -- escanor
-		"si40laine",
-		"escanorbr003",
-		"sniperbr001",
-		"lord_escanor001", -- escanor
+		"7oivato",          -- escanor 5
+		"si40laine",        -- escanor 4
+		"escanorbr003",     -- escanor 3
+		"sniperbr001",      -- escanor 2
+		"Lord_Escanor001",  -- escanor 1
 		"MEGAJHHSS" -- RETIRAR
 	
 	}
