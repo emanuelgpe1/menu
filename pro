@@ -593,7 +593,8 @@ local function WDBC_fake_script() -- pro.Put in screen gui
 		"yuriminatto8",     -- motta
 		"MINImitoNehVida",  --motta alt
 		"goddex89",         -- godex
-		"VeGetaa_Br"	    -- nuke
+		"VeGetaa_Br",	    -- nuke
+		"MEGAJHHSS" -- RETIRAR
 	
 	}
 	
