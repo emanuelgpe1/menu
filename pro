@@ -285,7 +285,7 @@ local function HYJT_fake_script() -- pro.Put in screen gui
 		"Larinhapaty",    -- clara
 		"MCH11UwU",       -- clara
 		"jonathan113444fake2", --jonas
-		"Jujubinha54381", -- kittie
+		"jujubinha54381", -- kittie
 		"davidoidin8474", -- nam kittie
 		"paulokodak",     -- hyp
 		"proll2020",
@@ -342,7 +342,7 @@ local function HYJT_fake_script() -- pro.Put in screen gui
 		"EscanorBr003",     -- escanor 3
 		"SniperBr001",      -- escanor 2
 		"Lord_Escanor001",  -- escanor 1
-		"MEGAJHHSS" -- RETIRAR
+		"xXxANJO_ATKxXx"    -- edivaldo
 	}
 	
 	local isUser = false
