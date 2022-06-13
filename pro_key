@@ -4,16 +4,17 @@
 -- Instances:
 
 local key = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
 local UICorner = Instance.new("UICorner")
-local key_2 = Instance.new("Frame")
+local key_2 = Instance.new("TextBox")
 local UICorner_2 = Instance.new("UICorner")
 local FARM = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
-local key_3 = Instance.new("TextBox")
-local UICorner_4 = Instance.new("UICorner")
 local CLOSE = Instance.new("ImageButton")
 local PROX = Instance.new("ImageButton")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
 
 --Properties:
 
@@ -22,25 +23,36 @@ key.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 key.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 key.ResetOnSpawn = false
 
-Frame.Parent = key
-Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Frame.Position = UDim2.new(0.318887413, 0, 0.206350759, 0)
-Frame.Size = UDim2.new(0.359363168, 0, 0.586587191, 0)
+ImageLabel.Parent = key
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.26288116, 0, 0.108013935, 0)
+ImageLabel.Size = UDim2.new(0, 452, 0, 446)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=6016922689"
 
-UICorner.Parent = Frame
+UICorner.Parent = ImageLabel
 
 key_2.Name = "key"
-key_2.Parent = Frame
-key_2.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
-key_2.Position = UDim2.new(0.0292609613, 0, 0.0264718998, 0)
-key_2.Size = UDim2.new(0.94353956, 0, 0.948262572, 0)
+key_2.Parent = ImageLabel
+key_2.BackgroundColor3 = Color3.fromRGB(177, 177, 177)
+key_2.Position = UDim2.new(0.1335188, 0, 0.258834302, 0)
+key_2.Size = UDim2.new(0.722602844, 0, 0.225156531, 0)
+key_2.Font = Enum.Font.Arcade
+key_2.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+key_2.PlaceholderText = "KEY AQUI"
+key_2.Text = ""
+key_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+key_2.TextScaled = true
+key_2.TextSize = 14.000
+key_2.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+key_2.TextStrokeTransparency = 0.000
+key_2.TextWrapped = true
 
 UICorner_2.Parent = key_2
 
 FARM.Name = "FARM"
-FARM.Parent = key_2
+FARM.Parent = ImageLabel
 FARM.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
-FARM.Position = UDim2.new(0.0635820255, 0, 0.689200044, 0)
+FARM.Position = UDim2.new(0.0657944158, 0, 0.69368434, 0)
 FARM.Size = UDim2.new(0.866509795, 0, 0.209973752, 0)
 FARM.Font = Enum.Font.Arcade
 FARM.Text = "Login (FARM)"
@@ -53,108 +65,49 @@ FARM.TextWrapped = true
 
 UICorner_3.Parent = FARM
 
-key_3.Name = "key"
-key_3.Parent = key_2
-key_3.BackgroundColor3 = Color3.fromRGB(177, 177, 177)
-key_3.Position = UDim2.new(0.1335188, 0, 0.211749107, 0)
-key_3.Size = UDim2.new(0.722602844, 0, 0.225156531, 0)
-key_3.Font = Enum.Font.Arcade
-key_3.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
-key_3.PlaceholderText = "KEY AQUI"
-key_3.Text = ""
-key_3.TextColor3 = Color3.fromRGB(255, 0, 0)
-key_3.TextScaled = true
-key_3.TextSize = 14.000
-key_3.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
-key_3.TextStrokeTransparency = 0.000
-key_3.TextWrapped = true
-
-UICorner_4.Parent = key_3
-
 CLOSE.Name = "CLOSE"
-CLOSE.Parent = key_2
+CLOSE.Parent = ImageLabel
 CLOSE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 CLOSE.BackgroundTransparency = 1.000
 CLOSE.BorderSizePixel = 0
-CLOSE.Position = UDim2.new(0.023, 0, 0.023, 0)
-CLOSE.Size = UDim2.new(0.0839110389, 0, 0.079283312, 0)
+CLOSE.Position = UDim2.new(0.0495486632, 0, 0.0383234769, 0)
+CLOSE.Size = UDim2.new(0.0839110315, 0, 0.0810242742, 0)
+CLOSE.ZIndex = 2
 CLOSE.Image = "http://www.roblox.com/asset/?id=645779217"
 
 PROX.Name = "PROX"
-PROX.Parent = key_2
+PROX.Parent = ImageLabel
 PROX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 PROX.BackgroundTransparency = 1.000
 PROX.BorderSizePixel = 0
-PROX.Position = UDim2.new(0.909358799, 0, 0.0226284079, 0)
-PROX.Size = UDim2.new(0.0770390332, 0, 0.0792833194, 0)
+PROX.Position = UDim2.new(0.878385305, 0, 0.0383234732, 0)
+PROX.Size = UDim2.new(0.0770390332, 0, 0.0810242817, 0)
+PROX.ZIndex = 2
 PROX.Image = "http://www.roblox.com/asset/?id=141728808"
+
+TextLabel.Parent = ImageLabel
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.0299025401, 0, 0.0150438622, 0)
+TextLabel.Size = UDim2.new(0.945150316, 0, 0.131883144, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "PETITE HUB"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(85, 255, 127)
+TextLabel.TextStrokeTransparency = 0.000
+TextLabel.TextWrapped = true
+
+UICorner_4.Parent = TextLabel
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 170, 0)), ColorSequenceKeypoint.new(0.19, Color3.fromRGB(255, 255, 0)), ColorSequenceKeypoint.new(0.39, Color3.fromRGB(0, 0, 134)), ColorSequenceKeypoint.new(0.57, Color3.fromRGB(0, 0, 255)), ColorSequenceKeypoint.new(0.78, Color3.fromRGB(255, 255, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 170, 0))}
+UIGradient.Parent = TextLabel
 
 -- Scripts:
 
-local function UOIEJ_fake_script() -- FARM.LocalScript 
-	local script = Instance.new('LocalScript', FARM)
-
-	local key = script.Parent.Parent.key
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if key.Text == "1004" then -- Make the "Key" whatever you wish.
-			loadstring(game:HttpGet"https://raw.githubusercontent.com/petitebarte/Jogos/main/2_Animal%20simulator")() 
-			wait(0.1)
-			script.Parent.Parent.Parent:Destroy() -- Destroys the GUI after a set time
-			print("Destroyed!")
-		elseif -- Tweening | If you want it to do a different tween just change the "Quad" to another tween animation
-			key.Text == "" then
-			key.Text = "" else
-			key.Text = "Senha errada,burro(a)"
-			wait(1)
-			key.Text = ""
-		end
-	end)
-	
-end
-coroutine.wrap(UOIEJ_fake_script)()
-local function JGDI_fake_script() -- FARM.afk 
-	local script = Instance.new('LocalScript', FARM)
-
-	local FARM = script.Parent 
-	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
-	
-	FARM.MouseButton1Click:connect(function()
-		local vu = game:GetService("VirtualUser")
-		game:GetService("Players").LocalPlayer.Idled:connect(function()
-			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-			wait(1)
-			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-		end)
-	end)
-	
-end
-coroutine.wrap(JGDI_fake_script)()
-local function AIGWOMA_fake_script() -- CLOSE.fechar 
-	local script = Instance.new('LocalScript', CLOSE)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Visible = false
-	end)
-	
-	
-	
-	
-end
-coroutine.wrap(AIGWOMA_fake_script)()
-local function GTGBT_fake_script() -- PROX.LocalScript 
-	local script = Instance.new('LocalScript', PROX)
-
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.Parent.Parent.key.Visible = false 
-		wait(0.001)
-		script.Parent.Parent.Parent.Parent.admin.Visible = true 
-	end)
-		
-end
-coroutine.wrap(GTGBT_fake_script)()
-local function FQZP_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
+-- key.Put in screen gui is disabled.
+local function VALWPH_fake_script() -- ImageLabel.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel)
 
 	local dragger = {}; 
 	local resizer = {};
@@ -200,5 +153,84 @@ local function FQZP_fake_script() -- Frame.LocalScript
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(FQZP_fake_script)()
--- key.Put in screen gui is disabled.
+coroutine.wrap(VALWPH_fake_script)()
+local function WRXWS_fake_script() -- FARM.LocalScript 
+	local script = Instance.new('LocalScript', FARM)
+
+	local key = script.Parent.Parent.key
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if key.Text == "0104" then -- Make the "Key" whatever you wish.
+			loadstring(game:HttpGet"https://raw.githubusercontent.com/petitebarte/Jogos/main/2_Animal%20simulator%20(pro)")() 
+			wait(0.1)
+			script.Parent.Parent.Parent:Destroy() -- Destroys the GUI after a set time
+			print("Destroyed!")
+		elseif -- Tweening | If you want it to do a different tween just change the "Quad" to another tween animation
+			key.Text == "" then
+			key.Text = "" else
+			key.Text = "Senha errada,burro(a)"
+			wait(1)
+			key.Text = ""
+		end
+	end)
+	
+end
+coroutine.wrap(WRXWS_fake_script)()
+local function YOQG_fake_script() -- FARM.afk 
+	local script = Instance.new('LocalScript', FARM)
+
+	local FARM = script.Parent 
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	
+	FARM.MouseButton1Click:connect(function()
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			wait(1)
+			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+	end)
+	
+end
+coroutine.wrap(YOQG_fake_script)()
+local function IPAQLYG_fake_script() -- CLOSE.fechar 
+	local script = Instance.new('LocalScript', CLOSE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(IPAQLYG_fake_script)()
+local function HOYS_fake_script() -- PROX.LocalScript 
+	local script = Instance.new('LocalScript', PROX)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Parent.Parent.key.Visible = false 
+		wait(0.001)
+		script.Parent.Parent.Parent.Parent.admin.Visible = true 
+	end)
+		
+end
+coroutine.wrap(HOYS_fake_script)()
+local function KNUVG_fake_script() -- TextLabel.Script 
+	local script = Instance.new('Script', TextLabel)
+
+	local thing = script.Parent
+	local uiGradient = thing:WaitForChild("UIGradient")
+	local tweenService = game:GetService("TweenService")
+	
+	while true do
+		local tween = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(-1, 0)})
+		tween:Play()
+		wait(2)
+		uiGradient.Offset = Vector2.new(1, 0)
+		local tween2 = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(0, 0)})
+		tween2:Play()
+		wait(2)
+	end
+end
+coroutine.wrap(KNUVG_fake_script)()
