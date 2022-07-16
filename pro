@@ -308,7 +308,7 @@ local function MBBMBX_fake_script() -- FARM.LocalScript
 
 	
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet"https://raw.githubusercontent.com/petitebarte/Jogos/main/2_Animal%20simulator%20(pro)")() 
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/emanuelgpe1/Jogos/main/2_Animal%20simulator%20(pro)")() 
 	end)
 	
 	
