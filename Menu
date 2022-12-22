@@ -13,9 +13,9 @@ local TextLabel = Instance.new("TextLabel")
 local titulo = Instance.new("TextLabel")
 local UICorner_3 = Instance.new("UICorner")
 local UICorner_4 = Instance.new("UICorner")
-local titulo_2 = Instance.new("TextLabel")
-local UICorner_5 = Instance.new("UICorner")
 local CLOSE = Instance.new("ImageButton")
+local Dc = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
 local UICorner_6 = Instance.new("UICorner")
 
 --Properties:
@@ -27,7 +27,7 @@ admin.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 p1.Name = "p1"
 p1.Parent = admin
 p1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-p1.Position = UDim2.new(0.305130452, 0, 0.147192746, 0)
+p1.Position = UDim2.new(0.307072192, 0, 0.207117841, 0)
 p1.Size = UDim2.new(0.369037002, 0, 0.585735917, 0)
 
 p12.Name = "p12"
@@ -41,10 +41,10 @@ UICorner.Parent = p12
 execute.Name = "execute"
 execute.Parent = p12
 execute.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
-execute.Position = UDim2.new(0.091624558, 0, 0.410848975, 0)
-execute.Size = UDim2.new(0.817734182, 0, 0.269520998, 0)
+execute.Position = UDim2.new(0.15818584, 0, 0.272520453, 0)
+execute.Size = UDim2.new(0.684611559, 0, 0.205417529, 0)
 execute.Font = Enum.Font.Fondamento
-execute.Text = "farm (Beta)"
+execute.Text = "farm"
 execute.TextColor3 = Color3.fromRGB(0, 0, 0)
 execute.TextScaled = true
 execute.TextSize = 14.000
@@ -81,23 +81,6 @@ UICorner_3.Parent = titulo
 
 UICorner_4.Parent = TextLabel
 
-titulo_2.Name = "titulo"
-titulo_2.Parent = TextLabel
-titulo_2.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
-titulo_2.BackgroundTransparency = 1.000
-titulo_2.Position = UDim2.new(0.127275705, 0, 6.67975855, 0)
-titulo_2.Size = UDim2.new(0.743842423, 0, 1.00000024, 0)
-titulo_2.Font = Enum.Font.SourceSans
-titulo_2.Text = "PvP hub pached"
-titulo_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-titulo_2.TextScaled = true
-titulo_2.TextSize = 14.000
-titulo_2.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
-titulo_2.TextStrokeTransparency = 0.000
-titulo_2.TextWrapped = true
-
-UICorner_5.Parent = titulo_2
-
 CLOSE.Name = "CLOSE"
 CLOSE.Parent = p12
 CLOSE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -107,12 +90,28 @@ CLOSE.Position = UDim2.new(0.023, 0, 0.023, 0)
 CLOSE.Size = UDim2.new(0.0839110389, 0, 0.079283312, 0)
 CLOSE.Image = "http://www.roblox.com/asset/?id=645779217"
 
+Dc.Name = "Dc"
+Dc.Parent = p12
+Dc.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+Dc.Position = UDim2.new(0.15818584, 0, 0.684132218, 0)
+Dc.Size = UDim2.new(0.684611559, 0, 0.205417529, 0)
+Dc.Font = Enum.Font.Fondamento
+Dc.Text = "Discord"
+Dc.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dc.TextScaled = true
+Dc.TextSize = 14.000
+Dc.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+Dc.TextStrokeTransparency = 0.000
+Dc.TextWrapped = true
+
+UICorner_5.Parent = Dc
+
 UICorner_6.Parent = p1
 
 -- Scripts:
 
 -- execute.part is disabled.
-local function MPLWW_fake_script() -- execute.afk 
+local function IRDSY_fake_script() -- execute.afk 
 	local script = Instance.new('LocalScript', execute)
 
 	local execute = script.Parent 
@@ -128,8 +127,8 @@ local function MPLWW_fake_script() -- execute.afk
 	end)
 	
 end
-coroutine.wrap(MPLWW_fake_script)()
-local function RYCWVQR_fake_script() -- execute.jogos 
+coroutine.wrap(IRDSY_fake_script)()
+local function ZSXSZBA_fake_script() -- execute.jogos 
 	local script = Instance.new('LocalScript', execute)
 
 	local localplayer = game.Players.LocalPlayer
@@ -147,25 +146,16 @@ local function RYCWVQR_fake_script() -- execute.jogos
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/emanuelgpe1/Jogos/main/animal%20simulator"))() 
 		end
 	
-	
-		if game.PlaceId == 189707 then
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/petitebarte/hub/main/petite%20hub%20(Natural%20disaster).txt"))() 
-		end  
-	
-		if game.PlaceId == 1122519450 then
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/petitebarte/hub/main/petite%20hub%20(titan%20simulator).txt"))() 
-		end
-		
 		if game.PlaceId == 6515722699 then -- Hadred
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/petitebarte/Jogos/main/4_Training%20Simulator%20(Beta)"))() 
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/emanuelgpe1/Jogos/main/4%20Lost%20island%5BRP%5D"))() 
 		end
 	
 	end)
 	
 	
 end
-coroutine.wrap(RYCWVQR_fake_script)()
-local function DJWAHE_fake_script() -- execute.fechar 
+coroutine.wrap(ZSXSZBA_fake_script)()
+local function XYZSLQL_fake_script() -- execute.fechar 
 	local script = Instance.new('LocalScript', execute)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -176,6 +166,45 @@ local function DJWAHE_fake_script() -- execute.fechar
 	
 	
 end
-coroutine.wrap(DJWAHE_fake_script)()
--- CLOSE.fechar is disabled.
+coroutine.wrap(XYZSLQL_fake_script)()
+local function FJDUMC_fake_script() -- CLOSE.fechar 
+	local script = Instance.new('LocalScript', CLOSE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(FJDUMC_fake_script)()
+-- Dc.part is disabled.
+local function CAEL_fake_script() -- Dc.afk 
+	local script = Instance.new('LocalScript', Dc)
+
+	local execute = script.Parent 
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	
+	execute.MouseButton1Click:connect(function()
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			wait(1)
+			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+	end)
+	
+end
+coroutine.wrap(CAEL_fake_script)()
+local function EWGGVJI_fake_script() -- Dc.LocalScript 
+	local script = Instance.new('LocalScript', Dc)
+
+	Dc.MouseButton1Click:Connect(function()
+		game.StarterGui:SetCore("SendNotification", {Title = "Link copiado!", Text = "Entra la ;-;", Icon = "http://www.roblox.com/asset/?id=9335567614", Duration = 1})
+		wait(1)
+		setclipboard("https://discord.gg/Xq4Uc3Vm3H")
+	end)
+end
+coroutine.wrap(EWGGVJI_fake_script)()
 -- p1.LocalScript is disabled.
