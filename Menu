@@ -27,8 +27,8 @@ admin.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 p1.Name = "p1"
 p1.Parent = admin
 p1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-p1.Position = UDim2.new(0.307072192, 0, 0.207117841, 0)
-p1.Size = UDim2.new(0.369037002, 0, 0.585735917, 0)
+p1.Position = UDim2.new(0.281829476, 0, 0.177155316, 0)
+p1.Size = UDim2.new(0.394279748, 0, 0.615698457, 0)
 
 p12.Name = "p12"
 p12.Parent = p1
@@ -110,8 +110,34 @@ UICorner_6.Parent = p1
 
 -- Scripts:
 
--- execute.part is disabled.
-local function IRDSY_fake_script() -- execute.afk 
+local function MOOHXV_fake_script() -- execute.part 
+	local script = Instance.new('Script', execute)
+
+	--[[
+	wait(2) --The time after which the platform or part appears.
+	local part = Instance.new('Part')
+	part.Parent = Workspace --Don't change it!! (Worksapce)
+	part.Size = Vector3.new(100, 1, 100) --Here we put any number of the width, the height of our platform (note that the measurement of the part goes in hairpins, if you are not familiar with this, do not change!)
+	part.Position = Vector3.new(0, 0, 0) --Change the position where the part will appear.
+	part.Anchored = true
+	
+	--Wrote a script:Luascripter21345,Thanks for using it!
+	]]
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(0.01)
+		local part = Instance.new('Part')
+		part.Parent = Workspace --Don't change it!! (Worksapce)
+		part.Size = Vector3.new(100, 1, 100) --Here we put any number of the width, the height of our platform (note that the measurement of the part goes in hairpins, if you are not familiar with this, do not change!)
+		part.Position = Vector3.new(1073.59839, -169.161713, 26.5116978, 0.492429793, 0.05819989, -0.86840409, 1.07656835e-08, 0.997761726, 0.0668693632, 0.870352149, -0.032928478, 0.491327614 ) --Change the position where the part will appear.
+		part.Anchored = true
+		wait(2000000000000000) --The time after which the platform or part appears.
+	
+	
+		--Wrote a script:Luascripter21345,Thanks for using it!
+	end)
+end
+coroutine.wrap(MOOHXV_fake_script)()
+local function NKFK_fake_script() -- execute.afk 
 	local script = Instance.new('LocalScript', execute)
 
 	local execute = script.Parent 
@@ -127,8 +153,8 @@ local function IRDSY_fake_script() -- execute.afk
 	end)
 	
 end
-coroutine.wrap(IRDSY_fake_script)()
-local function ZSXSZBA_fake_script() -- execute.jogos 
+coroutine.wrap(NKFK_fake_script)()
+local function GPDZ_fake_script() -- execute.jogos 
 	local script = Instance.new('LocalScript', execute)
 
 	local localplayer = game.Players.LocalPlayer
@@ -154,8 +180,8 @@ local function ZSXSZBA_fake_script() -- execute.jogos
 	
 	
 end
-coroutine.wrap(ZSXSZBA_fake_script)()
-local function XYZSLQL_fake_script() -- execute.fechar 
+coroutine.wrap(GPDZ_fake_script)()
+local function DBXKG_fake_script() -- execute.fechar 
 	local script = Instance.new('LocalScript', execute)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -166,8 +192,8 @@ local function XYZSLQL_fake_script() -- execute.fechar
 	
 	
 end
-coroutine.wrap(XYZSLQL_fake_script)()
-local function FJDUMC_fake_script() -- CLOSE.fechar 
+coroutine.wrap(DBXKG_fake_script)()
+local function CGPECLI_fake_script() -- CLOSE.fechar 
 	local script = Instance.new('LocalScript', CLOSE)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -178,9 +204,9 @@ local function FJDUMC_fake_script() -- CLOSE.fechar
 	
 	
 end
-coroutine.wrap(FJDUMC_fake_script)()
+coroutine.wrap(CGPECLI_fake_script)()
 -- Dc.part is disabled.
-local function CAEL_fake_script() -- Dc.afk 
+local function MGAFBXM_fake_script() -- Dc.afk 
 	local script = Instance.new('LocalScript', Dc)
 
 	local execute = script.Parent 
@@ -196,8 +222,8 @@ local function CAEL_fake_script() -- Dc.afk
 	end)
 	
 end
-coroutine.wrap(CAEL_fake_script)()
-local function EWGGVJI_fake_script() -- Dc.LocalScript 
+coroutine.wrap(MGAFBXM_fake_script)()
+local function UNVSD_fake_script() -- Dc.LocalScript 
 	local script = Instance.new('LocalScript', Dc)
 
 	Dc.MouseButton1Click:Connect(function()
@@ -206,5 +232,5 @@ local function EWGGVJI_fake_script() -- Dc.LocalScript
 		setclipboard("https://discord.gg/Xq4Uc3Vm3H")
 	end)
 end
-coroutine.wrap(EWGGVJI_fake_script)()
+coroutine.wrap(UNVSD_fake_script)()
 -- p1.LocalScript is disabled.
