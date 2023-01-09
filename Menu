@@ -16,7 +16,11 @@ local UICorner_4 = Instance.new("UICorner")
 local CLOSE = Instance.new("ImageButton")
 local Dc = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
+local mob = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
+local pc = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 
 --Properties:
 
@@ -27,8 +31,8 @@ admin.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 p1.Name = "p1"
 p1.Parent = admin
 p1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-p1.Position = UDim2.new(0.281829476, 0, 0.177155316, 0)
-p1.Size = UDim2.new(0.394279748, 0, 0.615698457, 0)
+p1.Position = UDim2.new(0.289654166, 0, 0.177155331, 0)
+p1.Size = UDim2.new(0.386455029, 0, 0.614067137, 0)
 
 p12.Name = "p12"
 p12.Parent = p1
@@ -41,8 +45,8 @@ UICorner.Parent = p12
 execute.Name = "execute"
 execute.Parent = p12
 execute.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
-execute.Position = UDim2.new(0.15818584, 0, 0.272520453, 0)
-execute.Size = UDim2.new(0.684611559, 0, 0.205417529, 0)
+execute.Position = UDim2.new(0.180752873, 0, 0.194480449, 0)
+execute.Size = UDim2.new(0.63417232, 0, 0.166854441, 0)
 execute.Font = Enum.Font.Fondamento
 execute.Text = "farm"
 execute.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -93,8 +97,8 @@ CLOSE.Image = "http://www.roblox.com/asset/?id=645779217"
 Dc.Name = "Dc"
 Dc.Parent = p12
 Dc.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
-Dc.Position = UDim2.new(0.15818584, 0, 0.684132218, 0)
-Dc.Size = UDim2.new(0.684611559, 0, 0.205417529, 0)
+Dc.Position = UDim2.new(0.228622973, 0, 0.49972713, 0)
+Dc.Size = UDim2.new(0.545871675, 0, 0.1325275, 0)
 Dc.Font = Enum.Font.Fondamento
 Dc.Text = "Discord"
 Dc.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -106,12 +110,70 @@ Dc.TextWrapped = true
 
 UICorner_5.Parent = Dc
 
-UICorner_6.Parent = p1
+mob.Name = "mob"
+mob.Parent = p12
+mob.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+mob.Position = UDim2.new(0.0813452601, 0, 0.79676789, 0)
+mob.Size = UDim2.new(0.398593932, 0, 0.149348274, 0)
+mob.Font = Enum.Font.Fondamento
+mob.Text = "PVP(MOB)"
+mob.TextColor3 = Color3.fromRGB(0, 0, 0)
+mob.TextScaled = true
+mob.TextSize = 14.000
+mob.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+mob.TextStrokeTransparency = 0.000
+mob.TextWrapped = true
+
+UICorner_6.Parent = mob
+
+pc.Name = "pc"
+pc.Parent = p12
+pc.BackgroundColor3 = Color3.fromRGB(12, 12, 12)
+pc.Position = UDim2.new(0.531716228, 0, 0.79676789, 0)
+pc.Size = UDim2.new(0.398593932, 0, 0.149348274, 0)
+pc.Font = Enum.Font.Fondamento
+pc.Text = "PVP(PC)"
+pc.TextColor3 = Color3.fromRGB(0, 0, 0)
+pc.TextScaled = true
+pc.TextSize = 14.000
+pc.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+pc.TextStrokeTransparency = 0.000
+pc.TextWrapped = true
+
+UICorner_7.Parent = pc
+
+UICorner_8.Parent = p1
+
+-- Module Scripts:
+
+local fake_module_scripts = {}
+
+do -- p1.ModuleScript
+	local script = Instance.new('ModuleScript', p1)
+	local function module_script()
+		local module = {}
+		function module.mobshift(plr)
+		local player=game:GetService'Players'[plr]
+		script.Shiftlock:Clone().Parent = player.PlayerGui
+		end	
+		return module
+	end
+	fake_module_scripts[script] = module_script
+end
+
 
 -- Scripts:
 
-local function MOOHXV_fake_script() -- execute.part 
+local function SOTVY_fake_script() -- execute.part 
 	local script = Instance.new('Script', execute)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	--[[
 	wait(2) --The time after which the platform or part appears.
@@ -136,9 +198,17 @@ local function MOOHXV_fake_script() -- execute.part
 		--Wrote a script:Luascripter21345,Thanks for using it!
 	end)
 end
-coroutine.wrap(MOOHXV_fake_script)()
-local function NKFK_fake_script() -- execute.afk 
+coroutine.wrap(SOTVY_fake_script)()
+local function KNUNIQ_fake_script() -- execute.afk 
 	local script = Instance.new('LocalScript', execute)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local execute = script.Parent 
 	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
@@ -153,9 +223,17 @@ local function NKFK_fake_script() -- execute.afk
 	end)
 	
 end
-coroutine.wrap(NKFK_fake_script)()
-local function GPDZ_fake_script() -- execute.jogos 
+coroutine.wrap(KNUNIQ_fake_script)()
+local function PKJOT_fake_script() -- execute.jogos 
 	local script = Instance.new('LocalScript', execute)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local localplayer = game.Players.LocalPlayer
 	
@@ -180,9 +258,17 @@ local function GPDZ_fake_script() -- execute.jogos
 	
 	
 end
-coroutine.wrap(GPDZ_fake_script)()
-local function DBXKG_fake_script() -- execute.fechar 
+coroutine.wrap(PKJOT_fake_script)()
+local function MGWH_fake_script() -- execute.fechar 
 	local script = Instance.new('LocalScript', execute)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
@@ -192,9 +278,17 @@ local function DBXKG_fake_script() -- execute.fechar
 	
 	
 end
-coroutine.wrap(DBXKG_fake_script)()
-local function CGPECLI_fake_script() -- CLOSE.fechar 
+coroutine.wrap(MGWH_fake_script)()
+local function BPKUIG_fake_script() -- CLOSE.fechar 
 	local script = Instance.new('LocalScript', CLOSE)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Visible = false
@@ -204,10 +298,18 @@ local function CGPECLI_fake_script() -- CLOSE.fechar
 	
 	
 end
-coroutine.wrap(CGPECLI_fake_script)()
+coroutine.wrap(BPKUIG_fake_script)()
 -- Dc.part is disabled.
-local function MGAFBXM_fake_script() -- Dc.afk 
+local function KOYYX_fake_script() -- Dc.afk 
 	local script = Instance.new('LocalScript', Dc)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	local execute = script.Parent 
 	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
@@ -222,9 +324,17 @@ local function MGAFBXM_fake_script() -- Dc.afk
 	end)
 	
 end
-coroutine.wrap(MGAFBXM_fake_script)()
-local function UNVSD_fake_script() -- Dc.LocalScript 
+coroutine.wrap(KOYYX_fake_script)()
+local function DVEU_fake_script() -- Dc.LocalScript 
 	local script = Instance.new('LocalScript', Dc)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
 
 	Dc.MouseButton1Click:Connect(function()
 		game.StarterGui:SetCore("SendNotification", {Title = "Link copiado!", Text = "Entra la ;-;", Icon = "http://www.roblox.com/asset/?id=9335567614", Duration = 1})
@@ -232,5 +342,143 @@ local function UNVSD_fake_script() -- Dc.LocalScript
 		setclipboard("https://discord.gg/Xq4Uc3Vm3H")
 	end)
 end
-coroutine.wrap(UNVSD_fake_script)()
+coroutine.wrap(DVEU_fake_script)()
+local function CCHFGDA_fake_script() -- mob.pvp 
+	local script = Instance.new('LocalScript', mob)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local localplayer = game.Players.LocalPlayer
+	
+	local mob = script.Parent
+	
+	mob.MouseButton1Click:Connect(function()
+		
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/emanuelgpe1/pvp/main/pvp(mob)"))() 
+	
+	end)
+	
+	
+end
+coroutine.wrap(CCHFGDA_fake_script)()
+local function MFCVC_fake_script() -- mob.fechar 
+	local script = Instance.new('LocalScript', mob)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(MFCVC_fake_script)()
+local function BFIPYH_fake_script() -- mob.afk 
+	local script = Instance.new('LocalScript', mob)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local execute = script.Parent 
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	
+	execute.MouseButton1Click:connect(function()
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			wait(1)
+			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+	end)
+	
+end
+coroutine.wrap(BFIPYH_fake_script)()
+local function AEAWM_fake_script() -- pc.afk 
+	local script = Instance.new('LocalScript', pc)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local execute = script.Parent 
+	local Character = game.Workspace:FindFirstChild(game.Players.LocalPlayer.Name) 
+	
+	execute.MouseButton1Click:connect(function()
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			wait(1)
+			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
+	end)
+	
+end
+coroutine.wrap(AEAWM_fake_script)()
+local function GHGDV_fake_script() -- pc.pvp 
+	local script = Instance.new('LocalScript', pc)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	local localplayer = game.Players.LocalPlayer
+	
+	local pc = script.Parent
+	
+	pc.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/emanuelgpe1/pvp/main/pvp(pc)"))() 	
+	
+	end)
+	
+	
+end
+coroutine.wrap(GHGDV_fake_script)()
+local function KRQHT_fake_script() -- pc.fechar 
+	local script = Instance.new('LocalScript', pc)
+	local req = require
+	local require = function(obj)
+		local fake = fake_module_scripts[obj]
+		if fake then
+			return fake()
+		end
+		return req(obj)
+	end
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(KRQHT_fake_script)()
 -- p1.LocalScript is disabled.
