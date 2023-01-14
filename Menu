@@ -190,7 +190,7 @@ local function SOTVY_fake_script() -- execute.part
 		local part = Instance.new('Part')
 		part.Parent = Workspace --Don't change it!! (Worksapce)
 		part.Size = Vector3.new(100, 1, 100) --Here we put any number of the width, the height of our platform (note that the measurement of the part goes in hairpins, if you are not familiar with this, do not change!)
-		part.Position = Vector3.new(1073.59839, -169.161713, 26.5116978, 0.492429793, 0.05819989, -0.86840409, 1.07656835e-08, 0.997761726, 0.0668693632, 0.870352149, -0.032928478, 0.491327614 ) --Change the position where the part will appear.
+		part.Position = Vector3.new(-55, 574, 818) --Change the position where the part will appear.
 		part.Anchored = true
 		wait(2000000000000000) --The time after which the platform or part appears.
 	
