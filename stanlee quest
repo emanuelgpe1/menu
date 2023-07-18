@@ -1,0 +1,44 @@
+
+local args = {
+    [1] = workspace:WaitForChild("ScavengerPieces"):WaitForChild("Blue Shard")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ScavengerHunt"):FireServer(unpack(args))
+---
+
+local args = {
+    [1] = workspace:WaitForChild("ScavengerPieces"):WaitForChild("Green Shard")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ScavengerHunt"):FireServer(unpack(args))
+---
+
+local args = {
+    [1] = workspace:WaitForChild("ScavengerPieces"):WaitForChild("Orange Shard")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ScavengerHunt"):FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:WaitForChild("ScavengerPieces"):WaitForChild("Pink Shard")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ScavengerHunt"):FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:WaitForChild("ScavengerPieces"):WaitForChild("Purple Shard")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ScavengerHunt"):FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:WaitForChild("ScavengerPieces"):WaitForChild("Red Shard")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ScavengerHunt"):FireServer(unpack(args))
+
+local args = {
+    [1] = workspace:WaitForChild("ScavengerPieces"):WaitForChild("Silver Shard")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ScavengerHunt"):FireServer(unpack(args))
